@@ -1,0 +1,464 @@
+.buscar{
+    position: relative;
+    top: -40px;
+    bottom:0;
+    right:0;
+    left:140px ;
+}
+
+.licencias-conten3{
+    position: absolute;
+    top:270px;
+    bottom:0;
+    right:0;
+    left: 600px; 
+}
+
+.licencias-conten4{
+    position: absolute;
+    top:840px;
+    bottom:0;
+    right:0;
+    left: 600px; 
+}
+
+.publicidad{
+    display: inline-block;
+    width: 1250px;
+    padding: 0;
+    text-align: center;
+/* en una etiqueta el white cambia el tamaño de la caja de la etiqueta el cambio de tamaño es en HORIZONTAL   */
+}
+
+.usuario{
+    position: absolute;
+    top:30px;
+    bottom:0;
+    right:0;
+    left: 1100px; 
+}
+
+.usuario-conten{
+    position: absolute;
+    top:60px;
+    bottom:0;
+    right:0;
+    left: 530px;
+}
+
+input{
+    margin-bottom:29px;
+}
+
+/* MARGIN BOOTTOM ES PARA HACER UNA SEPARACION VERTICAL DE LOS IMPUTO CAAS  */
+
+.index-footer{
+    color: rgb(255, 255, 255);
+    background-color: rgb(8, 11, 15);
+    width: 1000px;
+}
+
+#logo{
+    position: relative;
+    top:75px;
+    bottom:0;
+    right:0;
+    left: 0px; 
+}
+
+.conten3__img1{
+    position: relative;
+    top:0px;
+    bottom:0;
+    right: -150px;
+    left: 0,
+}
+
+.conten3__img2{
+    position: relative;
+    top:0px;
+    bottom:0;
+    right:0;
+    left:300px; 
+}
+
+.usuario{
+    width: 100px; 
+    height: 100px; 
+}
+
+.buscar{
+    width: 100px;
+    height: 10px;
+/*lo que hiso no fue cambiar el tamaño de la caja de la etiqueta porque el cambio que se hiso en una etiqueta <a>
+*/
+}
+
+.img{
+    width: 100px;
+    height: 100px;
+}
+
+/* para cambiar el tamaño de una imagen el cambio debe ser en la misma etiqueta de imagen */
+
+/* .conten2{
+    background:rgb(183, 203, 250) 
+} */
+
+/* .conten3{ 
+    background: rgb(164, 185, 241)
+} */
+
+/* .conten{
+    background: rgb(223, 232, 255) 
+}*/
+
+th{
+    padding: 8px;
+    width: 200px; 
+    border-radius: 10px;
+}
+
+tr{
+    background: rgb(77, 122, 206);
+}
+
+table{
+    border-collapse: collapse;
+}
+
+.pagina-licencias{
+    margin: 0;
+    padding: 0;
+    background-image:url(imagenes/Imagendf.png) ;
+    background-size: cover;
+}
+
+/*fondo*/
+.body-usuario{ 
+    margin: 0;
+    padding: 0;
+    background-image:url(imagenes/Imagendf.png) ;
+    background-size: cover;
+}
+
+.paguina-index{
+    margin: 0;
+    padding: 0;
+    background-image:url(imagenes/fondo1.png) ;
+    background-size: cover;
+}
+.index-footer__img--robot{ 
+    position: absolute;
+    top:1250px;
+    bottom:0;
+    right:0;
+    left: 950px;
+}
+
+/* .robot{
+    margin-left: 300px;
+}*/
+
+.carritopg1{
+    position: absolute;
+    top:-35px;
+    bottom:0;
+    right:0;
+    left: 640px; 
+    margin: 0;
+    padding: 0;
+}
+
+.carritopg2{
+    position: absolute;
+    top:28px;
+    bottom:0;
+    right:0;
+    left: 790px; 
+    margin: 0;
+    padding: 0;
+}
+
+.index-footer__img--logo{
+    margin-left: 600px;
+}
+
+.index-footer__img--redes{
+    margin: 0;
+    padding: 0;
+}
+
+.licencias-conten__h2{
+    background-color: blueviolet;
+    width: 250px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.licencias-conten__h3{
+    background-color: cornflowerblue;
+    width: 320px;
+    border-radius: 15px;
+}
+
+.licencias-conten__p{
+    background-color: cornflowerblue;
+    width: 190px;
+    border-radius: 15px; 
+}
+
+.licencias-conten2__h2{
+    background-color: blueviolet;
+    width: 250px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.licencias-conten2__h3{
+    background-color: cornflowerblue;
+    width: 320px;
+    border-radius: 15px;
+}
+
+.licencias-conten2__p{
+    background-color: cornflowerblue;
+    width: 190px;
+    border-radius: 15px;
+}
+
+.licencias-conten3__h2{
+    background-color: blueviolet;
+    width: 250px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.licencias-conten3__h3{
+    background-color: cornflowerblue;
+    width: 320px;
+    border-radius: 15px;
+}
+
+.licencias-conten3__p{
+    background-color: cornflowerblue;
+    width: 190px;
+    border-radius: 15px;
+}
+
+.licencias-conten4__h2{
+    background-color: blueviolet;
+    width: 250px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.licencias-conten4__h3{
+    background-color: cornflowerblue;
+    width: 320px;
+    border-radius: 15px;
+}
+
+.licencias-conten4__p{
+    background-color: cornflowerblue;
+    width: 190px;
+    border-radius: 15px; 
+}
+
+.usuario-conten__label {
+    display:block 
+}
+
+.usuario-conten__input{
+    width: 250px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 3px solid rgb(38, 240, 38);
+}
+
+.usuario-conten__input--activo{
+    background-color: rgb(38, 192, 38);
+    width: 250px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.pagina-equipos{
+    margin: 0;
+    padding: 0;
+    background-image:url(imagenes/Imagendf.png) ;
+    background-size: cover;
+}
+
+.pagina-nosotros{
+    margin: 0;
+    padding: 0;
+    background-image:url(imagenes/Imagendf.png) ;
+    background-size: cover;
+}
+
+.pagina-soporte{
+    margin: 0;
+    padding: 0;
+    background-image:url(imagenes/Imagendf.png) ;
+    background-size: cover;
+}
+
+.equipos-conten__h2{
+    display: inline-block;
+    width: 350px;
+    text-align: center;
+    background-color: blueviolet;
+    margin-left:100px;
+    margin-right: 500px;
+    font-size: 2em;
+}
+
+.equipos-conten__h3{
+    display: inline-block;
+    background-color:cornflowerblue;
+    width: 300px;
+    border-radius: 15px;
+    margin-left:100px;
+    margin-right: 500px;
+}
+
+.equipos-conten__p{
+    background-color: cornflowerblue;
+    width: 250px;
+    border-radius: 15px;
+    border-radius: 15px;
+    display: inline-block;
+    margin-right: 100px;
+    margin-bottom: 120px;
+    margin-left: 100px;
+} 
+
+.equipos-conten__img{
+    float: left;
+
+}
+
+.equipos-conten__h2--active{
+    background-color: blueviolet;
+    margin-left:10px;
+    text-align: center;
+    width:350px;
+    border-radius:10px;
+    line-height: 2;
+}
+
+.soporte-conten__h1{
+    color: cornflowerblue;
+}
+
+.soporte-conten__textarea{
+    margin-top: 20px;
+    margin-left:120px ;
+    border-radius: 20px;
+    text-align: center;
+    background-color: cornflowerblue;
+}
+
+.soporte-conten__input{
+    display: inline-block;
+    background-color: cornflowerblue;
+    margin-left: 975px;
+    line-height: 3;
+    width: 120px;
+    border-radius: 12px;                                
+}
+
+.soporte-conten2__p1{
+    display: inline-block;
+    background-color: darkblue;
+    color: white;
+    width:278px;
+    border-radius: 12px;
+    line-height:3;
+    margin-left: 20px;
+}
+
+.soporte-conten2__p2{
+    background-color: darkblue;
+    color: white;
+    display: inline-block;
+    margin-left: 394px;
+    width:278px ;
+    line-height: 3;
+    border-radius: 12px;
+}
+
+.soporte-conten2__p3{
+    background-color: darkblue;
+    color: white;
+    display: inline-block;
+    margin-left: 20px;
+    width:278px ;
+    line-height: 3;
+    border-radius: 12px;
+}
+
+.soporte-conten2__p4{
+    background-color: darkblue;
+    color: white;
+    display: inline-block;
+    margin-left: 394px;
+    width:278px ;
+    line-height: 3;
+    border-radius: 12px;
+}
+
+.soporte-conten2__p5{
+    background-color: darkblue;
+    color: white;
+    display: inline-block;
+    margin-left: 20px;
+    width:278px ;
+    line-height: 3;
+    border-radius: 12px;
+}
+
+.soporte-conten2__p6{
+    background-color: darkblue;
+    color: white;
+    display: inline-block;
+    margin-left: 394px;
+    width:250px ;
+    line-height: 3;
+    border-radius: 12px;
+}
+
+.nosotros-conten{
+    display: inline-block;
+    width:280px ;
+    margin-left: 60px;
+    margin-top: 0px;
+    position: relative;
+    top: -62px;
+}
+
+.nosotros-conten2{
+    display: inline-block;
+    width:280px ;
+    margin-left: 300px;
+    margin-top: 80px;
+}
+.nosotros-conten3__img1{
+    width:1300px;
+    height:350px ;
+}
+.nosotros-conten__h2{
+color: dodgerblue;
+}
+.carritopg{
+    position: absolute;
+    left: 840px;
+    top: -59px;
+}
+.mover{
+    margin-left: 120px;
+}
+

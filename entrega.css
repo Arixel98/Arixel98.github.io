@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    background-image: url(./imagenes/Imagendf.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top 0;
+}
+
+h1{
+    text-align: center;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+th{
+    padding: 8px;
+    width: 200px; 
+    border-radius: 10px;
+}
+
+tr{
+    background: rgb(77, 122, 206);
+}
+
+input{
+    border-radius: 25px;
+    margin-bottom: 0px;
+}
+
+.suguiente{
+    margin-left:950px ;
+    margin-bottom:50px;
+}
+.volver{
+    position: absolute;
+}
+
+.nombre{
+    padding: 5px;
+    width: 450px;
+}
+
+.apellido{
+    padding: 5px;
+    width: 450px;
+}
+
+.entrega{
+    padding: 5px;
+    width: 950px;
+}
+
+.contenedor{
+    display: inline-block;
+    margin: 40px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    position: absolute;
+    top: 260px;
+    left: 150px;
+}
+
+.contenedor1{
+    display: inline-block;
+    margin: 650px;
+    position: absolute;
+    top: -389px;
+    right: -450px;
+}
+
+.contenedor2{
+    display: block;
+    margin: 40px;
+    margin-top: 200px;
+    margin-left: 190px;
+
+}
+
+.contenedor3{
+    margin: 70px;
+    margin-left: 200px;
+}
+
+.descripcion__textarea{
+    border-radius: 25px;
+}
+
+.p{
+    background-color: rgb(106, 167, 218);
+    border-radius: 10px;
+    width: 130px;
+    color: black;
+    padding: 15px 0px;
+    text-align: center;
+    position: relative;
+    left: 800px;
+    
+}
+
+.sub{
+    display: inline-block;
+    margin: 650px;
+    padding: 15px 0px;
+    position: absolute;
+    top: 335px;
+    left: 300px;
+}
+
+.igv{
+    display: inline-block;
+    margin: 650px;
+    padding: 15px 0px;
+    position: absolute;
+    top: 398px;
+    left: 300px;
+}
+
+.total{
+    display: inline-block;
+    margin: 650px;
+    padding: 15px 0px;
+    position: absolute;
+    top: 463px;
+    left: 300px;
+}

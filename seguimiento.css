@@ -1,0 +1,124 @@
+th{
+    padding: 8px;
+    width: 200px; 
+    border-radius: 10px;
+    
+}
+
+tr{
+background: #414bb2;
+}
+
+table{
+    margin-top: 50px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image:url(imagenes/Imagendf.png) ;
+    background-size: cover;
+    }
+
+
+.h21{
+    background-color:  #414bb2;
+    text-align: center;
+    color: white;
+    width: 150px;
+}
+
+.h22{
+    display: inline-block;
+    background-color: #414bb2;
+    text-align: center;
+    color: white;
+    width: 150px;
+    border-radius: 12px;
+}
+
+.h23{
+    background-color: #414bb2;
+    text-align: center;
+    color: white;
+    width: 150px;
+    display: inline-block;
+    margin-left: 500px;
+    border-radius: 12px;
+}
+
+.h24{
+    background-color: #414bb2;
+    text-align: center;
+    color: white;
+    width: 300px;
+    border-radius: 12px;
+}
+
+.h25{
+    background-color: #414bb2;
+    text-align: center;
+    color: white;
+    width: 300px;
+    border-radius: 12px;
+}
+
+.h31{
+    display: inline-block;
+    background-color: rgb(67, 133, 255);
+    border-radius: 10px;
+    width: 500px;
+    margin-top: 80px;
+}
+
+.h32{
+    /* display: inline-block; */
+    background-color: rgb(67, 133, 255);
+    border-radius: 10px;
+    width: 500px;
+    margin-left: 300px;
+}
+
+.h33{
+    display: inline-block;
+    background-color: rgb(67, 133, 255);
+    border-radius: 10px;
+    width: 300px;
+}
+
+H1{
+    opacity: 0.5;
+    margin-top: 90px;
+    margin-left: 50px;
+}
+
+img{
+    float: left;
+}
+
+.img2{
+    display: block;
+    width:1200px;
+}
+
+input{
+    background-color:  #414bb2;
+    line-height:3 ;
+    margin-left: 1000px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    width: 200px;
+    color: white;
+}
+input:hover{
+    color:rgb(50, 53, 205);
+    background-color: yellow;
+}
+.suguiente{
+    margin-left:900px ;
+    margin-bottom:50px;
+}
+.volver{
+    margin-left: 30px;
+    margin-bottom: 19px;
+}
