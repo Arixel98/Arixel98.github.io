@@ -1,2 +1,2 @@
-# Arixel98 / Arixel98.github.io
+# Arixel98.github.io
 proyectos publicados de certus 
