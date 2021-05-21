@@ -123,13 +123,13 @@ width: 100px;
 }
 
 .buscar{
-    border: 1px black solid transparent;
-    height: auto;
+   
+    
    
     padding: 20px;
     display: grid;
     grid-template-columns: auto auto auto;
-    gap: 230px;
+    
 }
 
 .barra{

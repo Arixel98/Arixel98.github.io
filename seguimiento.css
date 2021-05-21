@@ -115,10 +115,12 @@ input:hover{
     background-color: yellow;
 }
 .suguiente{
-    margin-left:900px ;
-    margin-bottom:50px;
+  margin-left: 980px;
 }
 .volver{
     margin-left: 30px;
-    margin-bottom: 19px;
+    margin-bottom: 25px;
+}
+*{
+    text-decoration: none;
 }
