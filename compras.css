@@ -12,33 +12,47 @@
 .contaner{
    
     width: 100%;
-    height: auto;
-    display: grid;
     padding: 10px;
-    grid-template-columns: 1fr 1fr;
     gap: 1100px;
 }
 
 .before{
     
-    width: max-content;
-    height: auto;
+    width: 100px;
+   display: inline-block;
     padding: 10px;
     color: black;
     margin-left: 30px;
     border-radius: 10%;
     background-color: #414BB2;
     color: #fff;
-}
-.after{
+    text-align: center;}
+    .before:hover{
+        background: red;
+border-radius: 15px;
+color: white;
+border: 2px dashed black;
+width: 100px;
+    }
     
-    width: max-content;
-    height: auto;
+    
+.after{
+    display: inline-block;
+    width: 100px;    
     padding: 10px;
     color:  black;
     border-radius: 10%;
     background-color: #414BB2;
     color: #fff;
+    margin-left: 900px;
+    text-align: center;
+}
+.after:hover{
+background: red;
+border-radius: 15px;
+color: white;
+border: 2px dashed black;
+width: 100px;
 }
 
 .contenedor{
@@ -103,31 +117,28 @@
 
 .contenedor_img{
     border: 1px black solid transparent;
-    margin: auto;
     padding: 20px;
-    display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1100px;
 }
 
 .buscar{
     border: 1px black solid transparent;
-    width: 90%;
     height: auto;
    
     padding: 20px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: auto auto auto;
     gap: 230px;
 }
 
 .barra{
-    margin-top: 30px;
+    margin-top: 40px;
 }
 .barra_busqueda{
-    width:50em;
-    height: 3em; 
-    padding: 10px;
+    width:300px;
+    height: 20px; 
+    padding: 8px;
 } 
 
 .menu{
@@ -171,3 +182,9 @@ margin-right: 0px;
     /*max-width:50%;
     height: auto;
 }*/
+.usuario{
+    margin-left: 200px;
+}
+.wester{
+    margin-left: 800px;
+}
