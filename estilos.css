@@ -43,7 +43,10 @@
     top:60px;
     bottom:0;
     right:0;
-    left: 530px;
+    left: 525px;
+}
+.imgusuario{
+    margin-left: 15px;
 }
 
 input{
@@ -275,6 +278,7 @@ table{
     box-sizing: border-box;
     border-radius: 10px;
     border: 3px solid rgb(38, 240, 38);
+
 }
 
 .usuario-conten__input--activo{
