@@ -179,7 +179,7 @@ table{
 .pagina-licencias{
     margin: 0;
     padding: 0;
-    background-image:url(imagenes/Imagendf.png) ;
+    background-image:url(../imagenes/Imagendf.png) ;
     background-size: cover;
 }
 
@@ -187,14 +187,14 @@ table{
 .body-usuario{ 
     margin: 0;
     padding: 0;
-    background-image:url(imagenes/Imagendf.png) ;
+    background-image:url(../imagenes/Imagendf.png) ;
     background-size: cover;
 }
 
 .paguina-index{
     margin: 0;
     padding: 0;
-    background-image:url(imagenes/fondo1.png) ;
+    background-image:url(../imagenes/fondo1.png) ;
     background-size: cover;
 }
 .index-footer__img--robot{ 
@@ -338,21 +338,21 @@ table{
 .pagina-equipos{
     margin: 0;
     padding: 0;
-    background-image:url(imagenes/Imagendf.png) ;
+    background-image:url(../imagenes/Imagendf.png) ;
     background-size: cover;
 }
 
 .pagina-nosotros{
     margin: 0;
     padding: 0;
-    background-image:url(imagenes/Imagendf.png) ;
+    background-image:url(../imagenes/Imagendf.png) ;
     background-size: cover;
 }
 
 .pagina-soporte{
     margin: 0;
     padding: 0;
-    background-image:url(imagenes/Imagendf.png) ;
+    background-image:url(../imagenes/Imagendf.png) ;
     background-size: cover;
 }
 
