@@ -5,70 +5,86 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="../css/estilos.css">
+  <link rel="stylesheet" type="text/css" href="../css/equipos.css">
   <title>paguina principal</title>
   <link rel="icon" href="../imagenes/logo.png">
   <script src="https://kit.fontawesome.com/ccfac331ba.js" crossorigin="anonymous"></script>
 </head>
+
 <body class="pagina-equipos">
   <header>
     <nav>
-      <div class="conten">
-        <div>
-           <img src="../imagenes/ESCUDO-sin fondo.png " alt="logo" width="110px" height="125px">
-           </div>
+       <!-- logo chiquito -->
+       <img src="../imagenes/ESCUDO-sin fondo.png" class="escudo">
+       <a class="carritopg" href="Compras.html"><img class="carro" src="../imagenes/carrito.png"></a>
+         <!-- imagen logo de usuario -->
+         <img class="usuario" src="../imagenes/imagen nueva de usuario.png" alt="cargando..." width="100"
+         height="100">
+        <div class="buscar">
           
+            <!-- barra de busqueda -->
+          
+            <div class="barra">
+              <input type="text" placeholder="buscar" class="barra_busqueda">
+          </div>
 
-           <div class="buscar">
-               <input type="text" placeholder="Buscar" required>
-               <div class="btm">
-                   <i class="fas fa-search"></i>
-               </div> 
-           </div>
-           <div>
-               <a class="carritopg"href="Compras.html"><img class="img" src="../imagenes/carrito.png"></a>
-           </div>
-
-           <div>
-               <a class="usuario"href="usuario.html" target="_blank"> <img class="img" src="../imagenes/imagen nueva de usuario.png"></a>
-           </div>
-
- </div>
-      <table>
-         <tr>
-      
-          <th><a href="usuario.html">USUARIO </a></th>
-            <th> <a href="../index.html">INICIO</a></th>
-              <th><a href="licencias.html">LICENCIA </a></th>
-                <th><a href="soporte.html">SOPORTE </a></th>
-                  <th><a href="nosotros.html">NOSOTROS </a></th>
-                   </tr>
-              </table>
-      
+        </div>
+        <!-- menu de navegacion -->
+        <ul class="menu">
+            <li class="caja_menu"><a class="caja_link" href="licencias.html"><b>LICENCIA</b> </a></li>
+            <li class="caja_menu"><a class="caja_link" href="equipos.html"><b>EQUIPOS</b> </a></li>
+            <li class="caja_menu"><a class="caja_link" href="nosotros.html"><b>NOSOTROS</b> </a></li>
+            <li class="caja_menu"><a class="caja_link" href="soporte.html"><b>SOPORTES</b> </a></li>
+            <!-- <li class="caja_menu"><a class="caja_link" href="usuario.html"><b>USUARIOS</b> </a></li> -->
+            <li class="caja_menu"><a class="caja_link" href="Entrega.html"><b>ENTREGAS</b> </a></li>
+        </ul>
     </nav>
-  </header>
-  <section class="equipos-conten">
-  <h1 class="equipos-conten__h1">JJCSS.SAC</h1>
-  <img class="equipos-conten__img" src="../imagenes/pc gamer sin fondo.png" alt="pcgamer" width="300" height="300">
+</header>
+
+<table>
+  <tr>
+    <th></th>
+    <th></th>
+  </tr>
+  <tr>
+<td><img class="imagen1" src="../imagenes/pc gamer sin fondo.png" alt="pcgamer"width="300px" height="300px">
+  <h2 class="equipos-conten__h2--active"><br>PC GAMER PARA JUEGOS</h2></td>
+<td>
   <h2 class="equipos-conten__h2">CARACTERISTICAS:</h2>
   <h3 class="equipos-conten__h3">INTEL CORE I3 I5 I7 I9 /6TA A 11AVA GEN - AMD</h3>
-  <p class="equipos-conten__p">RAM 8GB 16GB 64GB 128GB </p>
-  <h2 class="equipos-conten__h2--active">PC GAMER PARA JUEGOS</h2>
-</section>
-<section class="equipos-conten2">
-  <img  class="equipos-conten__img" src="../imagenes/laptops sin fondo.png" alt="laptops" width="300px" height="300px">
+  <p class="equipos-conten__h3">RAM 8GB 16GB 64GB 128GB </p>
+
+</td>
+</tr>
+
+<tr>
+<td>
+  <img class="imagen2" src="../imagenes/laptops sin fondo.png" alt="laptops" width="300px" height="300px">
+  <h2 class="equipos-conten__h2--active">Laptops</h2>
+</td>
+<td>
   <h2 class="equipos-conten__h2">CARACTERISTICAS:</h2>
-  <h3 class="equipos-conten__h3">INTEL CORE I3 I5 I7 I9 /6TA A 11AVA GEN - AMD RYZEN 3 5 7 9</h3>
-  <p class="equipos-conten__p">RAM 8GB 16GB 64GB 128GB</p>
-  <h2 class="equipos-conten__h2--active" >Laptops</h2>
-</section>
-<section class="equipos-conten3">
-  <img  class="equipos-conten__img" src="../imagenes/laptops gamer sin fondo.png" alt="laptops gamer" width="300px" height="300px">
-  <h2 class="equipos-conten__h2">CARACTERISTICAS:</h2>
-  <h3 class="equipos-conten__h3">INTEL CORE I3 I5 I7 I9 /6TA A 11AVA GEN - AMD RYZEN 3 5 7 9</h3>
-  <p class="equipos-conten__p">RAM 8GB 16GB 64GB 128GB</p>
-  <h2 class="equipos-conten__h2--active" >laptos GAMER</h2>
-</section>
+    <h3 class="equipos-conten__h3">INTEL CORE I3 I5 I7 I9 /6TA A 11AVA GEN - AMD RYZEN 3 5 7 9</h3>
+    <p class="equipos-conten__h3">RAM 8GB 16GB 64GB 128GB</p>
+   
+</td>
+</tr>
+  <tr>
+    <td>
+      <img class="imagen3" src="../imagenes/laptops gamer sin fondo.png" alt="laptops gamer" width="300px"
+      height="300px">
+      <h2 class="equipos-conten__h2--active"><br>Laptops GAMER</h2>
+    </td>
+    <td>
+      <h2 class="equipos-conten__h2">CARACTERISTICAS:</h2>
+      <h3 class="equipos-conten__h3">INTEL CORE I3 I5 I7 I9 /6TA A 11AVA GEN - AMD RYZEN 3 5 7 9</h3>
+      <p class="equipos-conten__h3">RAM 8GB 16GB 64GB 128GB</p>
+    </td>
+  </tr> 
+  
+</table>
+
+
 </body>
 
 </html>
