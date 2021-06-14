@@ -8,26 +8,29 @@
     <link rel="stylesheet" href="../css/compras.css">
     <title>Compras</title>
 </head>
+
 <body class="pagina-Compras">
+<div class=agrupar>
     <header>
         <nav>
-
             <div class="buscar">
+                <div>
+                    <!-- logo chiquito -->
+                    <img src="../imagenes/ESCUDO-sin fondo.png" alt="logo" width="100" height="100">
+                </div>
+                <!-- barra de busqueda -->
+                <div class="barra">
+                    <input type="text" placeholder="buscar" class="barra_busqueda">
+                </div>
 
-               <div>
-                <img src="../imagenes/ESCUDO-sin fondo.png" alt="logo" width="100" height="100">
-               </div>
+                <div>
+                    <!-- imagen logo de usuario -->
+                    <img class="usuario" src="../imagenes/imagen nueva de usuario.png" alt="cargando..." width="100"
+                        height="100">
+                </div>
 
-              <div class="barra">
-                <input type="text" placeholder="buscar" class="barra_busqueda">
-              </div>
-
-            <div>
-                <img class="usuario" src="../imagenes/imagen nueva de usuario.png" alt="cargando..." width="100" height="100">
             </div>
-
-            </div>
-
+            <!-- menu de navegacion -->
             <ul class="menu">
                 <li class="caja_menu"><a class="caja_link" href="licencias.html"><b>LICENCIA</b> </a></li>
                 <li class="caja_menu"><a class="caja_link" href="equipos.html"><b>EQUIPOS</b> </a></li>
@@ -39,74 +42,76 @@
         </nav>
     </header>
 
-    
-<section>
-    <div class="contenedor_envio">
 
-    <h1 class="titulo">Método de pago - Envío</h1> 
+    <section>
+        <div class="contenedor_envio">
 
-    <div class="contenedor_inputs">
-    <label for="N_titular">Nombre del titular</label> <br>
-    <input type="text" name="N_titular"  class="input_metodo"> <br>
+            <h1 class="titulo">Método de pago - Envío</h1>
+            <!-- metodos de pago- envio -->
+            <div class="contenedor_inputs">
+                <label for="N_titular">Nombre del titular</label> <br>
+                <input type="text" name="N_titular" class="input_metodo"> <br>
 
-    <label for="N_tarjeta">Número de tarjeta</label> <br>
-    <input type="text" name="N_tarjeta"  class="input_metodo"> <br>
+                <label for="N_tarjeta">Número de tarjeta</label> <br>
+                <input type="text" name="N_tarjeta" class="input_metodo"> <br>
 
-    <label for="fecha">Mes/año Vencimiento</label> <br>
-    <input type="date" name="fecha" class="input_metodo"> <br>
-    
-    <label for="ccv">ccv</label> <br>
-    <input type="text" name="ccv"  class="input_metodo"> <br>
+                <label for="fecha">Mes/año Vencimiento</label> <br>
+                <input type="date" name="fecha" class="input_metodo"> <br>
+
+                <label for="ccv">ccv</label> <br>
+                <input type="text" name="ccv" class="input_metodo"> <br>
+            </div>
+        </div>
+    </section>
+
+    <div class="contenedor">
+        <div class="exterior">
+            <div class="dinero">
+                $9
+            </div>
+
+            <div class="interior">
+                Por aire
+            </div>
+        </div>
+        <div class="exterior">
+            <div class="dinero">
+                $7
+            </div>
+
+            <div class="interior">
+                Por tierra
+            </div>
+        </div>
+        <div class="exterior">
+            <div class="dinero">
+                $15
+            </div>
+            <div class="interior">
+                Por mar
+            </div>
+        </div>
+
     </div>
-  </div>
-</section>
 
-<div class="contenedor">
-    <div  class="exterior">
-        <div class="dinero">
-            $9
-        </div>
-
-        <div class="interior">
-            Por aire
-        </div>
-    </div>
-    <div class="exterior">
-     <div class="dinero">
-            $7
-     </div>
-
-        <div class="interior">
-           Por tierra
-        </div>
-    </div>
-    <div class="exterior">
-        <div class="dinero">
-            $15
-        </div>
-        <div class="interior">
-             Por mar
-        </div>
-    </div>
-
-</div>
-
- <section class="contenedor_img">
-   <!-- <img src="../imagenes/mastercard.png" width="50" height="50" alt="mastercard">   
+    <section class="contenedor_img">
+        <!-- <img src="../imagenes/mastercard.png" width="50" height="50" alt="mastercard">   
     <img src="../imagenes/visa.png" width="50" height="50"alt="visa"> -->
 
-    <img src="../imagenes/medios de pago (1).png" width="200" height="100" alt="paypal">  <img class="wester"src="../imagenes/wester.png" width="200" height="60" alt="wester">
- </section>
+        <img src="../imagenes/medios de pago (1).png" width="200" height="100" alt="paypal"> <img class="wester"
+            src="../imagenes/wester.png" width="200" height="60" alt="wester">
+    </section>
 
- <div class="contaner">
-        <div class="before" >
-           <a href="../index.html" class="texto_footer"> Anterior</a>
+    <div class="contaner">
+        <div class="before">
+            <a href="../index.html" class="texto_footer"> Anterior</a>
         </div>
-        <div  class="after">
+        <div class="after">
             <a href="Entrega.html" class="texto_footer">Siguiente</a>
         </div>
-    </di>
+        </di>
 
+</div>        
 </body>
 
-</html> 
+</html>
