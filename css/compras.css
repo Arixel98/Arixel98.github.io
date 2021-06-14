@@ -1,11 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 :any-link{
     text-decoration: none;
 }
 
-
 .pagina-Compras{
-    margin: 0;
-    padding: 0;
     background-image:url(../imagenes/Imagendf.png) ;
     background-size: cover;
     }
@@ -111,6 +112,8 @@ width: 100px;
 .input_metodo{
     border-color: #81A9F7;
     border-radius: 5px;
+    width: 350px;
+    height: 30px;
 }
 
 .texto_footer{
@@ -125,9 +128,6 @@ width: 100px;
 }
 
 .buscar{
-   
-    
-   
     padding: 20px;
     display: grid;
     grid-template-columns: auto auto auto;
@@ -145,7 +145,7 @@ width: 100px;
 
 .menu{
     list-style: none;
-    margin-left: 25px;
+    margin-left: 60px;
     margin-bottom: 30px;
 }
 .caja_menu{
@@ -157,6 +157,7 @@ background-color: #414BB2;
 display: inline-block;
 border-radius: 10px;
 margin-right: 0px;
+text-align: center;
 }
 
 .caja_link{
@@ -175,6 +176,8 @@ margin-right: 0px;
     height: auto;
     margin: auto;
     padding: 10px;
+    font-size: 30px;
+    font-family: arial;
 }
 /*.img
 {
@@ -185,7 +188,7 @@ margin-right: 0px;
     height: auto;
 }*/
 .usuario{
-    margin-left: 200px;
+    margin-left: 600px;
 }
 .wester{
     margin-left: 800px;
