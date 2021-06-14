@@ -402,6 +402,8 @@ table{
 
 .soporte-conten__h1{
     color: cornflowerblue;
+    font-size: 2em;
+   margin-left: 40px;
 }
 
 .soporte-conten__textarea{
