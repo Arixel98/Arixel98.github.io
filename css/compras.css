@@ -1,6 +1,8 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
 }
 :any-link{
     text-decoration: none;
@@ -30,6 +32,7 @@
     background-color: #414BB2;
     color: #fff;
     text-align: center;}
+
     .before:hover{
         background: red;
 border-radius: 15px;
@@ -114,6 +117,7 @@ width: 100px;
     border-radius: 5px;
     width: 350px;
     height: 30px;
+    font-size: 25px;
 }
 
 .texto_footer{
@@ -127,25 +131,21 @@ width: 100px;
     gap: 1100px;
 }
 
-.buscar{
+.navegacion{
     padding: 20px;
     display: grid;
     grid-template-columns: auto auto auto;
-    
+    border-color: black;
+    width: 500px;
+    display: block;
+        
 }
 
-.barra{
-    margin-top: 40px;
-}
-.barra_busqueda{
-    width:300px;
-    height: 20px; 
-    padding: 8px;
-} 
+
 
 .menu{
     list-style: none;
-    margin-left: 60px;
+    margin-left: 150px;
     margin-bottom: 30px;
 }
 .caja_menu{
@@ -188,8 +188,79 @@ text-align: center;
     height: auto;
 }*/
 .usuario{
-    margin-left: 600px;
+    margin-left: 1150px;
+    margin-top: -150px;
 }
 .wester{
     margin-left: 800px;
 }
+.boton
+{
+    width: 200px;
+    font-size: 25px;
+    margin-left: 70px;
+    margin-top: 20px;
+    padding: auto;
+}
+
+input[type="search"]
+{
+    padding:10px;
+    padding-right: 35px;
+    border: none;
+    width: 470px;
+    margin-left: 380px;
+    border-color: grey;
+    font-size: 18px;
+    margin-bottom: -10px;
+}
+
+#input-search{
+width: 500px;
+height: 40px;
+font-size: 20px;
+text-indent: 5px;
+margin-top: -50px;
+margin-bottom: 20px;
+}
+
+
+.content-search{
+width: 100%;
+height: 100vh;
+position: fixed;
+top:60px;
+left: 0;
+background: rgba(0,0,0,0.3);
+display: none;
+
+}
+
+.content-table{
+    width: 40%;
+    max-height: 550px;
+    height: auto;
+    background:rgba(0,0,0,0.3);
+    margin-left: 380px;
+    overflow-y: visible;
+    overflow-x: hidden;
+
+}
+
+.content-table table{
+    width: 100%;
+}
+
+tbody tr td a
+{
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+
+}
+
+tbody tr td a:hover {
+background:rgba(0,0,0,0.3);
+}
+
