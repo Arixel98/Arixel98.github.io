@@ -8,19 +8,19 @@
     <title>Usuario</title>
     <link rel="icon" href="../imagenes/logo.png">
 </head>
-
+<script src="../Javascript/usuario.js"></script>
 <body class="body-usuario">
-    <script>
+    <SCRIPT  language=JavaScript> 
         function go(){
-
-if (document.form.password.value=='CONTRASEÑA' && document.form.login.value=='USUARIO'){ 
-        document.form.submit(); 
-    } 
-    else{ 
-         alert("Porfavor ingrese, nombre de usuario y contraseña correctos."); 
-    } 
-} 
-    </script>
+        
+        if (document.form.password.value=='CONTRASEÑA' && document.form.login.value=='USUARIO'){ 
+                document.form.submit(); 
+            } 
+            else{ 
+                 alert("Porfavor ingrese, nombre de usuario y contraseña correctos."); 
+            } 
+        } 
+        </SCRIPT> 
     <header>
         <div>
             
@@ -40,7 +40,7 @@ if (document.form.password.value=='CONTRASEÑA' && document.form.login.value=='U
             <input class="usuario-conten__input" type="password" id="contraseña" placeholder="escribe tu contraseña"><br>
 
             <input onclick=go() class="usuario-conten__input--activo" type="submit" value="ingresar">
-          
+
            </form>
           </div>
           
