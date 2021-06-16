@@ -1,9 +1,10 @@
-function go(){
+alert("Ingresar con correo")
+var getData = function go(){
 
     if (document.getElementById('contraseña') && document.getElementById('usuario'){ 
-            document.getElementById(); 
+            document.form.submit(); 
         } 
-        else{ 
+        else{
              alert("Porfavor ingrese, nombre de usuario y contraseña correctos."); 
         } 
     } 
