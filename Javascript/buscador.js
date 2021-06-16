@@ -1,39 +1,34 @@
 //creando filtrado de busqueda
 
-table=document.getElementById("table");
+//table=document.getElementById("table");
+//contentSearch=document.getElementById("content-search");
+bars_search =       document.getElementById("ctn-bars-search");
+cover_ctn_search =  document.getElementById("cover-ctn-search");
 inputSearch=document.getElementById("input-search");
-contentSearch=document.getElementById("content-search");
+box_search =        document.getElementById("box-search");
+  
+document.getElementById("input-search").addEventListener("keyup", buscador_interno);
 
-// var buscador = $(table).DataTable();
-
-// $(inputSearch).keyup(function(){
-//     buscador.search($(this).val()).draw();
-
-//     if($(inputSearch).val()== ""){
-//         $(contentSearch).fadeOut();
-//     } else {
-//         $(contentSearch).fadeIn();
-//     }
-// })
-
-function buscador_interno(){
-
+function buscador_interno(){  
     filter = inputSearch.value.toUpperCase();
-    Li=box_search.getElementsBytagName("Li");
+    li = box_search.getElementsByTagName("li");
+ 
+    for (i = 0; i < li.length; i++){
 
-//recorriendo elementos a filtrar mediante los "Li"
-for(i=0;i<Li.length;i++){
-    a=Li[i].getElementsBytagName("a")[0];
-    textValue=a.textContent||a.innerText;   
-    if(textValue.toUpperCase().indexOf(filter)>-1)
-    {
-        Li[i].style.display="";
-        box_search.style.display="block";
-        if(inputSearch.value===""){
-            box_search.style.display = "none";
-        }
-    }else{
-        Li[i].style.display="none";
-    }
-}
+        a = li[i].getElementsByTagName("a")[0];
+        textValue = a.textContent || a.innerText;
+
+        if(textValue.toUpperCase().indexOf(filter) > -1){
+
+            li[i].style.display = "";
+            box_search.style.display = "block";
+
+            if (inputSearch.value === ""){
+                box_search.style.display = "none";
+            }
+
+        }else{
+            li[i].style.display = "none";
+        } 
+    } 
 }
