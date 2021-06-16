@@ -10,24 +10,7 @@
 </head>
 <script src="../Javascript/usuario.js"></script>
 <body class="body-usuario">
-
-<SCRIPT  language=JavaScript> 
-function Login(){ 
-var done=0; 
-var usuario=document.login.usuario.value; 
-var password=document.login.password.value; 
-if (usuario=="USUARIO1" && password=="CONTRASEÑA1") { 
-window.location="TU_PAGINA_WEB.HTML"; 
-} 
-if (usuario=="USUARIO2" && password=="CONTRASEÑA2") { 
-window.location="TU_PAGINA_WEB.HTML"; 
-} 
-if (usuario=="" && password=="") { 
-window.location="errorpopup.html"; 
-} 
-} 
-</SCRIPT>
- 
+    
     <header>
         <div>
             
@@ -46,12 +29,10 @@ window.location="errorpopup.html";
             <label class="usuario-conten__label"form="contraseña">CONTRASEÑA:</label>
             <input class="usuario-conten__input" type="password" id="contraseña" placeholder="escribe tu contraseña"><br>
 
-            <input onclick=Login() class="usuario-conten__input--activo" type="submit" value="ingresar">
+            <input class="usuario-conten__input--activo" type="submit" value="ingresar">
 
            </form>
           </div>
-          
-
-    
+      
 </body>
 </html>
