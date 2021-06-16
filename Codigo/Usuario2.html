@@ -7,6 +7,15 @@
     <title>Document</title>
 </head>
 <body>
+    <script>
+    function go()
+if (document.getElementById('password') && document.getElementById('usuario'){ 
+        document.form.submit(); 
+    } 
+    else{ 
+         alert("Porfavor ingrese, nombre de usuario y contraseña correctos."); 
+    } 
+</script>
 <h1>Ingresa Tus Datos 
 </h1> 
 <form name="login"> 
@@ -27,7 +36,7 @@
          </span></td> 
        </tr> 
        <tr> 
-         <th scope="row"><input type="reset" name="Borrar" id="Borrar" value="Reset" class="boton" /></th> 
+         <th onclick=go() scope="row"><input type="reset" name="Borrar" id="Borrar" value="Reset" class="boton" /></th> 
        </tr> 
      </table> 
 </form> 
@@ -38,13 +47,13 @@ var done=0;
 var usuario=document.login.usuario.value; 
 var password=document.login.password.value; 
 if (usuario=="USUARIO1" && password=="CONTRASEÑA1") { 
-window.location="Usuario2.html"; 
+window.getElementById("Usuario2.html"); 
 } 
 if (usuario=="USUARIO2" && password=="CONTRASEÑA2") { 
-window.location="Usuario2.html"; 
+window.getElementById("Usuario2.html"); 
 } 
 if (usuario=="" && password=="") { 
-window.location="errorpopup.html"; 
+window.getElementById("errorpopup.html"); 
 } 
 } 
 </script> 
