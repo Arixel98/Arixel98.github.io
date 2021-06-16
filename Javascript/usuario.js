@@ -1,6 +1,6 @@
 function go(){
 
-if (document.form.password.value=='CONTRASEÑA' && document.form.login.value=='USUARIO'){ 
+if (document.getElementById=='contraseña' && document.getElementById=='usuario'){ 
         document.form.submit(); 
     } 
     else{ 
