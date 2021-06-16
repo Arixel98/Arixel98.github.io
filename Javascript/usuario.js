@@ -1,3 +1,4 @@
+<SCRIPT>
 function go(){
 
     if (document.form.password.value=='CONTRASEÑA' && document.form.login.value=='USUARIO'){ 
@@ -7,3 +8,4 @@ function go(){
              alert("Porfavor ingrese, nombre de usuario y contraseña correctos."); 
         } 
     } 
+</SCRIPT>
