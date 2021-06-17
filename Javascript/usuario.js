@@ -9,36 +9,16 @@ if(usuario==""){
     document.getElementById("usuario").focus();
 }
 else if(contraseña==""){
-    alert("Ingrese su contraseña");
-}}
+    alert("Ingrese su contraseña")
+    document.getElementById("contraseña").focus();
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//     document.getElementById("contraseña").focus();
 // }else if (fecha==""){
 //    alert("Seleccione mes de vencimiento")
 //    document.getElementById("fecha").focus();
 // }else if(ccv ==""){
 //    alert("Ingrese su numero de cvv")
 //     document.getElementById("ccv").focus();
-
+}}
 
 
 
