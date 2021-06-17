@@ -54,11 +54,10 @@
 
 
     .carritopg{ 
-        position: center;
-        left: 0px;
-        top: 0px;
-        width: 50px;
-        height: 300px;
+        position:relative;
+        left: 30px;
+        top: 20px;
+        
     } 
 
     .carro{
@@ -235,12 +234,13 @@
     }
     
     .barra{
-        margin-top: -30px;
+        margin-top: 0px;
+        
 
     }
     .barra_busqueda{
         width:300px;
-        height: 20px; 
+        height: 10px; 
         padding: 8px;
     } 
     
