@@ -1,76 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../css/estilos.css">
-    <title>paguina principal</title>
-    <link rel="icon" href="../imagenes/logo.png">
-    <script src="https://kit.fontawesome.com/ccfac331ba.js" crossorigin="anonymous"></script>
-</head>
-<body class="pagina-licencias">
-    <header>
-          <nav>
-            <div class="conten">
-              <div>
-                 <img src="../imagenes/ESCUDO-sin fondo.png" alt="logo" width="110px" height="125px">
-                 </div>
-                
- 
-                 <div class="buscar">
-                     <input type="text" placeholder="Buscar" required>
-                     <div class="btm">
-                         <i class="fas fa-search"></i>
-                     </div> 
-                 </div>
-                 <div>
-                     <a class="carritopg"href="Compras.html"><img class="img" src="../imagenes/carrito.png"></a>
-                 </div>
- 
-                 <div>
-                     <a class="usuario"href="usuario.html" target="_blank"> <img class="img" src="../imagenes/imagen nueva de usuario.png"></a>
-                 </div>
- 
-       </div>
-                <table  >
-                      <tr>
-                       <th><a href="usuario.html">USUARIO </a></th>
-                        <th><a href="../index.html">INICIO </a></th>
-                          <th><a href="equipos.html">EQUIPOS</a></th>
-                            <th> <a href="soporte.html">SOPORTE </a></th>
-                              <th><a href="nosotros.html">NOSOTROS</a></th>
-                      </tr>
-                </table>
-            </nav>
-        </header>
-        <section  class="licencias-conten">
-        <h1 class="licencias-conten__h1"><br></h1>
-        <br>
-        <img class="licencias-conten__img"  src="../imagenes/MICROSOFT sin fondo.png" alt="MICROSOFT" width="400px" height="400px">
-        <h2 class="licencias-conten__h2" >Descripcion:</h2>
-        <h3 class="licencias-conten__h3">Licencias de Microsoft office home y business</h3>
-        <p class="licencias-conten__p">duracion 12 meses</p> <b class="p"> S/. 50 </b>
-        </section>
-      <section class="licencias-conten2">
-        <img class="licencias-conten2__img"  src="../imagenes/ESET sin fondo.png" alt="ESET"  width="400px" height="400px">
-        <h2 class="licencias-conten2__h2" >Descripcion:</h2>
-        <h3 class="licencias-conten2__h3">Licencias bitdefender internet security</h3>
-        <p class="licencias-conten2__p">duracion 12 meses</p> <b class="p">S/. 80</b>
-      </selection>
-      <selection class="licencias-conten3">
-        <img class="licencias-conten3__img"  src="../imagenes/BITDEFENDER sin fondo.png" alt="BITDEFENDER"  width="400px" height="400px"> 
-        <h2 class="licencias-conten3__h2">Descripcion:</h2>
-        <h3 class="licencias-conten3__h3">Licencias de Antivirus </h3>
-        <p class="licencias-conten3__p">duracion 12 meses</p> <b class="p">S/. 100</b>
-      </selection>
-      <section class="licencias-conten4">
-        <img class="licencias-conten4__img" src="../imagenes/KASPERKY sin fondo.png" alt="KASPERKY"  width="400px" height="400px">
-        <h2 class="licencias-conten4__h2">Descripcion:</h2>
-        <h3 class="licencias-conten4__h3">Licencias  KASPERSKY Antivirus</h3>
-        <p class="licencias-conten4__p" >duracion 12 meses </p> <b class="p">S/. 90</b>
 
-      </section>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="../css/estilos.css">
+  <link rel="stylesheet" href="../css/licencias.css">
+  <title>paguina principal</title>
+  <link rel="icon" href="../imagenes/logo.png">
+  <script src="https://kit.fontawesome.com/ccfac331ba.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="pagina-licencias">
+  <img src="../imagenes/ESCUDO-sin fondo.png" alt="logo" width="110px" height="125px">
+
+  <a class="carritopg" href="Compras.html"><img class="img" src="../imagenes/carrito.png"></a>
+
+  <a class="usuario" href="usuario.html" target="_blank"> <img class="img"
+    src="../imagenes/imagen nueva de usuario.png"></a>
         
+
+  <header>
+    
+
+        <div id="ctn-bars-search">
+          <input  type="search" placeholder="¿Qué deseas buscar?" id="input-search">
+        </div> 
+
+      <ul id="box-search"> 
+          <li><a href="../Codigo/usuario.html"><i class="fas fa-search"></i>Usuario</a></li>
+          <li><a href="../Codigo/licencias.html"><i class="fas fa-search"></i>Licencias</a></li>
+          <li><a href="../Codigo/equipos.html"><i class="fas fa-search"></i>Equipos</a></li>
+          <li><a href="../Codigo/Entrega.html"><i class="fas fa-search"></i>Entregas</a></li>
+          <li><a href="../Codigo/equipos.html"><i class="fas fa-search"></i>PC gamer</a></li>
+          <li><a href="../Codigo/equipos.html"><i class="fas fa-search"></i>Laptops</a></li>
+          <li><a href="../Codigo/Compras.html"><i class="fas fa-search"></i>Método de pago</a></li>
+          <li><a href="../Codigo/nosotros.html"><i class="fas fa-search"></i>Acerca de Nosotros</a></li>
+      </ul>
+
+      <div id="cover-ctn-search"></div>
+     
+  </header>
+  <nav>
+    <table>
+      <tr>
+        <th><a href="usuario.html">USUARIO </a></th>
+        <th><a href="../index.html">INICIO </a></th>
+        <th><a href="equipos.html">EQUIPOS</a></th>
+        <th> <a href="soporte.html">SOPORTE </a></th>
+        <th><a href="nosotros.html">NOSOTROS</a></th>
+      </tr>
+    </table>
+  </nav>
+  <section class="licencias-conten">
+    <h1 class="licencias-conten__h1"><br></h1>
+    <br>
+    <img class="licencias-conten__img" src="../imagenes/MICROSOFT sin fondo.png" alt="MICROSOFT" width="400px"
+      height="400px">
+    <h2 class="licencias-conten__h2">Descripcion:</h2>
+    <h3 class="licencias-conten__h3">Licencias de Microsoft office home y business</h3>
+    <p class="licencias-conten__p">duracion 12 meses</p> <b class="p"> S/. 50 </b>
+  </section>
+  <section class="licencias-conten2">
+    <img class="licencias-conten2__img" src="../imagenes/ESET sin fondo.png" alt="ESET" width="400px" height="400px">
+    <h2 class="licencias-conten2__h2">Descripcion:</h2>
+    <h3 class="licencias-conten2__h3">Licencias bitdefender internet security</h3>
+    <p class="licencias-conten2__p">duracion 12 meses</p> <b class="p">S/. 80</b>
+    </selection>
+    <selection class="licencias-conten3">
+      <img class="licencias-conten3__img" src="../imagenes/BITDEFENDER sin fondo.png" alt="BITDEFENDER" width="400px"
+        height="400px">
+      <h2 class="licencias-conten3__h2">Descripcion:</h2>
+      <h3 class="licencias-conten3__h3">Licencias de Antivirus </h3>
+      <p class="licencias-conten3__p">duracion 12 meses</p> <b class="p">S/. 100</b>
+    </selection>
+    <section class="licencias-conten4">
+      <img class="licencias-conten4__img" src="../imagenes/KASPERKY sin fondo.png" alt="KASPERKY" width="400px"
+        height="400px">
+      <h2 class="licencias-conten4__h2">Descripcion:</h2>
+      <h3 class="licencias-conten4__h3">Licencias KASPERSKY Antivirus</h3>
+      <p class="licencias-conten4__p">duracion 12 meses </p> <b class="p">S/. 90</b>
+
+    </section>
+
+ <script src="../Javascript/buscador.js"></script>   
 </body>
+
 </html>
