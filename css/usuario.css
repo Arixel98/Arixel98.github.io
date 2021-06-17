@@ -1,0 +1,38 @@
+/*ESTILOS DEL LOGIN*/ 
+.formulario{
+    margin: auto;
+    border: 1px #000 solid transparent;
+    width: 300px;
+    height: auto;
+    padding: 20px;
+}
+.logo_home{
+    margin-left: -50px;
+}
+.imagen{
+    width: 100px;
+    height: 100px;
+    margin-left: 50%;
+}
+.content_img{
+    margin-right: 6em;
+}
+.user{
+    margin-top: 1em;
+}
+
+/*input{
+    border-color: #8FD04E;
+    border-radius: 10%;
+    height: 30px;
+    width: 20em;
+}*/
+
+.button{
+    border: none;
+    width: 15em;
+    height: 3em;
+    margin-left: 2.5em;
+    border-radius: 10%;
+    background-color: #8FD04E;
+}
