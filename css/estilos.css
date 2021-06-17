@@ -53,7 +53,7 @@ cursor: pointer;
 
 .licencias-conten3{
     position: absolute;
-    top:245px;
+    top: 280px;
     bottom:0;
     right:0;
     left: 600px; 
@@ -61,7 +61,7 @@ cursor: pointer;
 
 .licencias-conten4{
     position: absolute;
-    top:815px;
+    top:870px;
     bottom:0;
     right:0;
     left: 600px; 
@@ -452,13 +452,14 @@ table{
     border-radius: 12px;
     line-height:3;
     margin-left: 20px;
+    width:330px ;
 }
 
 .soporte-conten2__p2{
     background-color: darkblue;
     color: white;
     display: inline-block;
-    margin-left: 394px;
+    margin-left: 340px;
     width:278px ;
     line-height: 3;
     border-radius: 12px;
@@ -472,6 +473,7 @@ table{
     width:278px ;
     line-height: 3;
     border-radius: 12px;
+    margin-top: 10px;
 }
 
 .soporte-conten2__p4{
@@ -492,6 +494,7 @@ table{
     width:278px ;
     line-height: 3;
     border-radius: 12px;
+    margin-top: 10px;
 }
 
 .soporte-conten2__p6{
@@ -502,6 +505,10 @@ table{
     width:250px ;
     line-height: 3;
     border-radius: 12px;
+}
+.soporte-conten2__div{
+    width: 1000px;
+    height: 250px;
 }
 
 .nosotros-conten{
