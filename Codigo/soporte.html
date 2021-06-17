@@ -5,29 +5,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/soporte.css">
     <title>paguina principal</title>
     <link rel="icon" href="../imagenes/logo.png">
 </head>
 <body class="pagina-soporte">
     <header>
-          <nav>
-            <img src="../imagenes/ESCUDO-sin fondo.png" alt="logo" width="100" height="100">                                            
-            <div class="buscar"></div>
-                    <input type="text" placeholder="buscar">
-            </div>
-           <div>
-            <table>
-              <tr>
-               <th><a href="../index.html">INICIO </a></th>
-                <th><a href="equipos.html">EQUIPOS </a></th>
-                  <th><a href="licencias.html">EQUIPOS</a></th>
-                    <th> <a href="soporte.html">SOPORTE </a></th>
-                      <th><a href="nosotros.html">NOSOTROS</a></th>
-              </tr>
-        </table>
-           </div>
-            </nav>    
+      <div>
+        <!-- logo chiquito -->
+        <img src="../imagenes/ESCUDO-sin fondo.png" alt="logo" width="100" height="100">
+    </div>
+    <div>
+        <!-- imagen logo de usuario -->
+        <img class="usuario" src="../imagenes/imagen nueva de usuario.png" alt="cargando..." width="100" height="100">
+    </div>
+
+    <header>
+       <!-- <input  type="search" placeholder="¿Qué deseas buscar?" id="input-search"> -->
+        <div id="ctn-bars-search">
+            <input  type="search" placeholder="¿Qué deseas buscar?" id="input-search">
+        </div> 
+
+        <ul id="box-search"> 
+            <li><a href="../Codigo/usuario.html"><i class="fas fa-search"></i>Usuario</a></li>
+            <li><a href="../Codigo/licencias.html"><i class="fas fa-search"></i>Licencias</a></li>
+            <li><a href="../Codigo/equipos.html"><i class="fas fa-search"></i>Equipos</a></li>
+            <li><a href="../Codigo/Entrega.html"><i class="fas fa-search"></i>Entregas</a></li>
+            <li><a href="../Codigo/equipos.html"><i class="fas fa-search"></i>PC gamer</a></li>
+            <li><a href="../Codigo/equipos.html"><i class="fas fa-search"></i>Laptops</a></li>
+            <li><a href="../Codigo/Compras.html"><i class="fas fa-search"></i>Método de pago</a></li>
+            <li><a href="../Codigo/nosotros.html"><i class="fas fa-search"></i>Acerca de Nosotros</a></li>
+        </ul>
+
+        <div id="cover-ctn-search"></div>
+
 </header>
+
+              
+</header>
+<div>
+  <table>
+    <tr>
+     <th><a href="../index.html">INICIO </a></th>
+      <th><a href="equipos.html">EQUIPOS </a></th>
+        <th><a href="licencias.html">EQUIPOS</a></th>
+          <th> <a href="soporte.html">SOPORTE </a></th>
+            <th><a href="nosotros.html">NOSOTROS</a></th>
+    </tr>
+</table>
+ </div>
+  </nav> 
+
 <section class="soporte-conten">
   <h1  class="soporte-conten__h1"> Registros de errores y/o   problemas </h1>
   <h3 class="soporte-conten__h3">Estimado usuarios:</h3>
@@ -49,5 +77,6 @@
   <p class="soporte-conten2__p6">¿Como hacer una devolucion?</p>
 </section>
 
+<script src="../Javascript/buscador.js"></script>
 </body>
 </html>
