@@ -1,16 +1,21 @@
+*{
+    text-decoration: none;
+}
 th{
     padding: 8px;
     width: 200px; 
     border-radius: 10px;
     
 }
-
+th a{
+    color: white;
+}
 tr{
 background: #414bb2;
 }
 
 table{
-    margin-top: 50px;
+    margin-top:20px;
 }
 
 body {
@@ -101,18 +106,9 @@ img{
     width:1200px;
 }
 
-input{
-    background-color:  #414bb2;
-    line-height:3 ;
-    margin-left: 1000px;
-    border-radius: 15px;
-    margin-bottom: 40px;
-    width: 200px;
-    color: white;
-}
 input:hover{
     color:rgb(50, 53, 205);
-    background-color: yellow;
+
 }
 .suguiente{
   margin-left: 980px;
@@ -121,6 +117,70 @@ input:hover{
     margin-left: 30px;
     margin-bottom: 25px;
 }
-*{
-    text-decoration: none;
+
+
+/*Buscador de contenido*/
+  
+#ctn-bars-search{  
+    top: -10px;
+    width: 100%; 
+    padding: 20px;
+    z-index: 9;
+    transition: all 600ms;
 }
+
+#ctn-bars-search input{
+    display: block;
+    width: 500px;
+    margin: auto;
+    padding: 10px;
+    font-size: 20px;
+    outline: 0;
+    margin-left: 100px;
+    margin-top: 20px;
+    font-size: 20px;
+    height: 50px;
+}
+
+#box-search{
+    position: fixed;
+    top: 165px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 460px;
+    background: #fff;
+    z-index: 8;
+    overflow: hidden;
+    display: none;
+    margin-top: -75px;
+    margin-left: -270px;
+    
+}
+
+#box-search li a{
+    display: block;
+    width: 1200px;
+    color: #777777;
+    padding: 12px 20px;
+}
+
+#box-search li a:hover{
+    background: #f3f3f3;
+}
+
+#box-search li a i{
+    margin-right: 10px;
+    color: #777777;
+}
+
+
+#cover-ctn-search{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: 7;
+    display: none;
+}
+ 
