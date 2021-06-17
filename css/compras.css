@@ -283,6 +283,8 @@ background:rgba(0,0,0,0.3);
     padding: 10px;
     font-size: 20px;
     outline: 0;
+  margin-top: -100px;
+  
 }
 
 #box-search{
@@ -295,6 +297,7 @@ background:rgba(0,0,0,0.3);
     z-index: 8;
     overflow: hidden;
     display: none;
+    margin-top: -85px;
 }
 
 #box-search li a{

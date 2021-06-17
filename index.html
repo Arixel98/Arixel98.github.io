@@ -6,7 +6,7 @@
     <meta name="description" content="JJCSS-TECH - hack es una empresa de venta de todo tipo de productos tecnologicos">
     <meta  name="author" content="grupo jjscc">
     <link rel="stylesheet" type="text/css" href="css/estilos.css">
-
+    <link rel="stylesheet" href="./css/index.css">
     
     <title>JJCSS-TECH</title>
     <link rel="icon" href="imagenes/logo.png">
@@ -20,12 +20,22 @@
                 </div>
                
 
-                <div class="buscar">
-                    <input type="text" placeholder="Buscar" required>
-                    <div class="btm">
-                        <i class="fas fa-search"></i>
-                    </div> 
-                </div>
+                <div id="ctn-bars-search">
+                    <input  type="search" placeholder="¿Qué deseas buscar?" id="input-search">
+                </div> 
+        
+                <ul id="box-search"> 
+                    <li><a href="../Codigo/usuario.html"><i class="fas fa-search"></i>Usuario</a></li>
+                    <li><a href="../Codigo/licencias.html"><i class="fas fa-search"></i>Licencias</a></li>
+                    <li><a href="../Codigo/equipos.html"><i class="fas fa-search"></i>Equipos</a></li>
+                    <li><a href="../Codigo/Entrega.html"><i class="fas fa-search"></i>Entregas</a></li>
+                    <li><a href="../Codigo/equipos.html"><i class="fas fa-search"></i>PC gamer</a></li>
+                    <li><a href="../Codigo/equipos.html"><i class="fas fa-search"></i>Laptops</a></li>
+                    <li><a href="../Codigo/Compras.html"><i class="fas fa-search"></i>Método de pago</a></li>
+                    <li><a href="../Codigo/nosotros.html"><i class="fas fa-search"></i>Acerca de Nosotros</a></li>
+                </ul>
+        
+                <div id="cover-ctn-search"></div>
                 <div>
                     <a class="carritopg" href="Codigo/Compras.html"><img class="img" src="imagenes/carrito.png" alt="carrito"></a>
                 </div>
@@ -75,6 +85,7 @@
  </div>
  <script src="https://kit.fontawesome.com/ccfac331ba.js" crossorigin="anonymous"></script>
     <script src="Javascript/index.js" type="text/javascript"></script>
+    <script src="./Javascript/buscador.js"></script>
 </body>
 </html>
    

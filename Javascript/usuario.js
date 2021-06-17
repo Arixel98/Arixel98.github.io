@@ -3,53 +3,32 @@ var getData = function ()
 {
 var usuario = document.getElementById("usuario").value;
 var contraseña = document.getElementById("contraseña").value;
+var ingresar = document.getElementById("ingresar").value
+
 
 if(usuario==""){
     alert("Ingrese su usuario completo");
     document.getElementById("usuario").focus();
 }
 else if(contraseña==""){
-    alert("Ingrese su contraseña");
+    alert("Ingrese su contraseña")
+    document.getElementById("contraseña").focus();
+}
+else if(ingresar==""){
+alert("continuemos con tu compra - Mortal").focus();
+}
+else{
+console.log(usuario+" "+contraseña+"")
 }}
 
 
+//¡NO BORRAR JAMAS JAMAS DE LOS JAMASES!
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//     document.getElementById("contraseña").focus();
-// }else if (fecha==""){
-//    alert("Seleccione mes de vencimiento")
-//    document.getElementById("fecha").focus();
-// }else if(ccv ==""){
-//    alert("Ingrese su numero de cvv")
-//     document.getElementById("ccv").focus();
-
-
-
-
-
-//if (document.getElementById('contraseña') && document.getElementById('usuario') 
-//document.form.submit(); 
-//} 
-//else{
-//alert("Porfavor ingrese, nombre de usuario y contraseña correctos."); 
-//}}
 
 
 
 //¡NO BORRAR JAMAS JAMAS DE LOS JAMASES!
+
+
+
+

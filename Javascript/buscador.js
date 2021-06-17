@@ -2,10 +2,10 @@
 
 //table=document.getElementById("table");
 //contentSearch=document.getElementById("content-search");
-bars_search =       document.getElementById("ctn-bars-search");
-cover_ctn_search =  document.getElementById("cover-ctn-search");
+bars_search =document.getElementById("ctn-bars-search");
+cover_ctn_search = document.getElementById("cover-ctn-search");
 inputSearch=document.getElementById("input-search");
-box_search =        document.getElementById("box-search");
+box_search =document.getElementById("box-search");
   
 document.getElementById("input-search").addEventListener("keyup", buscador_interno);
 
