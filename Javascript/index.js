@@ -21,7 +21,7 @@ window.addEventListener('load',function(){
     
     var imagenes=[];
     
-    imagenes[0]="../imagenes/PUBLICIDAD PRINCIPAL.png";
+    imagenes[0]="imagenes/PUBLICIDAD PRINCIPAL.png";
     imagenes[1]="../imagenes/nueva.png";
     imagenes[2]="../imagenes/imagen3.jpg";
     
