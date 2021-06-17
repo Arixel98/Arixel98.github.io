@@ -53,7 +53,7 @@ cursor: pointer;
 
 .licencias-conten3{
     position: absolute;
-    top:270px;
+    top:245px;
     bottom:0;
     right:0;
     left: 600px; 
@@ -61,7 +61,7 @@ cursor: pointer;
 
 .licencias-conten4{
     position: absolute;
-    top:840px;
+    top:815px;
     bottom:0;
     right:0;
     left: 600px; 
@@ -252,6 +252,7 @@ table{
 }
 
 .licencias-conten__p{
+    display: inline-block;
     background-color: cornflowerblue;
     width: 190px;
     border-radius: 15px; 
@@ -271,6 +272,7 @@ table{
 }
 
 .licencias-conten2__p{
+    display: inline-block;
     background-color: cornflowerblue;
     width: 190px;
     border-radius: 15px;
@@ -290,6 +292,7 @@ table{
 }
 
 .licencias-conten3__p{
+    display:inline-block;
     background-color: cornflowerblue;
     width: 190px;
     border-radius: 15px;
@@ -309,10 +312,17 @@ table{
 }
 
 .licencias-conten4__p{
+    
     background-color: cornflowerblue;
     width: 190px;
     border-radius: 15px; 
 }
+
+.p{
+    margin-left: 60px;
+    font-size: 2em;
+}
+
 
 .usuario-conten__label {
     display:block 

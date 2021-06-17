@@ -1,9 +1,23 @@
-body {
+/* body {
     margin: 0;
     background-image: url(../imagenes/Imagendf.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top 0;
+} */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+:any-link{
+    text-decoration: none;
+}
+
+.pagina-Entrega {
+    background-image:url(../imagenes/Imagendf.png) ;
+    background-size: cover;
 }
 
 h1{
@@ -47,7 +61,7 @@ input{
     width: 450px;
 }
 
-.entrega{
+.d_entrega{
     padding: 5px;
     width: 950px;
 }
