@@ -312,7 +312,7 @@ table{
 }
 
 .licencias-conten4__p{
-    
+    display: inline-block;
     background-color: cornflowerblue;
     width: 190px;
     border-radius: 15px; 
