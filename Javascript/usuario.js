@@ -7,8 +7,30 @@ var contraseña = document.getElementById("contraseña").value;
 if(usuario==""){
     alert("Ingrese su usuario completo");
     document.getElementById("usuario").focus();
-}else if(contraseña==""){
-    alert("Ingrese su contraseña")
+}
+else if(contraseña==""){
+    alert("Ingrese su contraseña");
+}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //     document.getElementById("contraseña").focus();
 // }else if (fecha==""){
 //    alert("Seleccione mes de vencimiento")
@@ -16,7 +38,7 @@ if(usuario==""){
 // }else if(ccv ==""){
 //    alert("Ingrese su numero de cvv")
 //     document.getElementById("ccv").focus();
-}}
+
 
 
 
