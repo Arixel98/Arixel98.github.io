@@ -420,10 +420,30 @@ table{
     border-radius:10px;
     line-height: 2;
 }
+.soporte-conten__h3{
+    text-align: left;
+    margin-left: 80px;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.soporte-conten__p{
+    text-align: left;
+    margin-left: 80px;
+    font-size: 25px;
+    padding-bottom: 20px;
+    
+}
+.acontinuacion{
+    text-align: left;
+    margin-left: 80px;
+    font-size: 25px;
+}
+
 
 .soporte-conten__h1{
     color: cornflowerblue;
-    font-size: 2em;
+    font-size: 40px;
    margin-left: 40px;
 }
 
@@ -432,16 +452,23 @@ table{
     margin-left:120px ;
     border-radius: 20px;
     text-align: center;
-    background-color: cornflowerblue;
+    background-color: cornflowerblue; 
+    font-size: 20px;   
+    width: 950px;
+    height: 400px;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 .soporte-conten__input{
     display: inline-block;
     background-color: cornflowerblue;
-    margin-left: 975px;
+    margin-left: 900px;
     line-height: 3;
-    width: 120px;
-    border-radius: 12px;                                
+    width: 150px;
+    border-radius: 12px;  
+    font-size: 20px; 
+                                 
 }
 
 .soporte-conten2__p1{
