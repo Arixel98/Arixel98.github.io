@@ -68,3 +68,7 @@
     z-index: 7;
     display: none;
 }
+
+tr th a{
+    color: white;
+}
