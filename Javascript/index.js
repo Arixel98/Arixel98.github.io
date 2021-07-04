@@ -3,22 +3,8 @@ window.addEventListener('load',function(){
 console.log('cargo el contenido');
 
 
-var ingresar =prompt("Ingrese su nombre");
-var cambio =document.querySelector("h1").innerHTML= " Bienbenido " +ingresar+ " a la paguina de JJCSS";
-
-})
-
-function bienvenido(){
-document.write(cambio );
-}
 
 
-
-
-window.addEventListener('load',function(){
-    console.log('cargo el contenido');
-    
-    
     var imagenes=[];
     
     imagenes[0]="imagenes/PUBLICIDAD PRINCIPAL.png";
@@ -43,7 +29,9 @@ window.addEventListener('load',function(){
              
     }
     setInterval(cambiarImg,2000);
-    
-    });
+
+    var ingresar =prompt("Ingrese su nombre");
+    var cambio =document.querySelector("h1").innerHTML= " Bienbenido " +ingresar+ " a la paguina de JJCSS";
+})
     
     

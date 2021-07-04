@@ -1,12 +1,11 @@
+
+function cuenta() {
 var licenciaM=50;
 var licenciasA=100
 var licenciaB=80
 var licenciaK=90
 let dinero=prompt("cuanto dinero tines?");
    dinero=parseInt(dinero)
-
-//  let dinerocarlos=prompt("cuanto dinero tienes Roberto");
-//  let dinerosebastian=prompt("cuanto dinero tienes Pedro?") ;
 
 if (dinero>=50& dinero<80){
     alert(" puedes comprarte una licencia de Microsoft ");
@@ -28,5 +27,9 @@ alert("puedes comprarte una licencia de antivirus ");
 alert(" te sobra " +  " S/" +(dinero - 100));
     }
     else {
- alert(" lo siento  no te alcanza para ninguna licencia ");
+        if(dinero==dinero){
+            alert(" lo siento  no te alcanza para ninguna licencia ");
+        }
     }
+}
+window.addEventListener("load",cuenta)
