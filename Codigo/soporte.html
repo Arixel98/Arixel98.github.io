@@ -41,8 +41,6 @@
 
 </header>
 
-              
-</header>
 <div>
   <table>
     <tr>
@@ -62,9 +60,10 @@
   <p class="soporte-conten__p">Aquí podra reportar los errores ,sugerencias , quejas y/o reclamos que han podido tener en su estancia, aqui en su pagina favorita ,le agradecemos enormemente sus aportes para seguir creciendo de la mano junto a ustedes 
     <p class="acontinuacion">A CONTINUACION DETALLE SU APORTE:</p>
   
-  <form >
- <textarea class="soporte-conten__textarea" name="description"  cols="130" rows="25" id="Comentario"></textarea><br>
- <button class="soporte-conten__input" type="submit" id="Enviar" onclick="Soporte();">Enviar</button>
+  <form id="task-form">
+ <textarea class="soporte-conten__textarea" name="description"  cols="130" rows="25" id="Task-description" autofocus></textarea>
+ <br>
+ <button class="soporte-conten__input" type="submit" id="btn-task-form">Enviar</button>
 </form>
 </section>
 <section class="soporte-conten2">
@@ -79,6 +78,31 @@
 </div>
 </section>
 
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-firestore.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyCzG2PnPoSmfNzd9G9VzQL3t95pawRZNuc",
+    authDomain: "base-de-datos-jcss.firebaseapp.com",
+    projectId: "base-de-datos-jcss",
+    storageBucket: "base-de-datos-jcss.appspot.com",
+    messagingSenderId: "354423035680",
+    appId: "1:354423035680:web:2dfbcd8ccc952158f86945",
+    measurementId: "G-ED0X5ZYFMW"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
 <script src="../Javascript/buscador.js"></script>
 <script src="../Javascript/soporte.js"></script>
 </body>
