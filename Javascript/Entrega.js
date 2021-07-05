@@ -1,5 +1,5 @@
 
-alert("Ingresa los datos de entrega")
+
 
 var getData = function()
 { //declarar variables para los controles

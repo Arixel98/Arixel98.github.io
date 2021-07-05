@@ -1,11 +1,12 @@
+
+
+function cuenta(){
+
 var laptopNormal=1800
 var pcGamer=3500
 var laptopGamer=4999
 let dinero=prompt("cuanto dinero tines?");
    dinero=parseInt(dinero)
-
-//  let dinerocarlos=prompt("cuanto dinero tienes Roberto");
-//  let dinerosebastian=prompt("cuanto dinero tienes Pedro?") ;
 
 if (dinero>=1800 & dinero<3500){
     alert(" puedes comprarte una laptop normal ");
@@ -20,8 +21,18 @@ alert("puedes comprarte una Laptop Gamer ");
 alert(" te sobra " +  " S/" +(dinero - 4999));
     }
     else {
- alert(" lo siento  no te alcanza para ningun equipo");
+        if(dinero==dinero){
+            alert(" lo siento  no te alcanza para ningun equipo");
+        }
     }
+ }
+// luego de que toda la paguina se aya cargado o mostrado ejecutame la cuncion cuenta
+ window.addEventListener("load",cuenta)
+
+
+
+
+
 
     // function cuadrado(n){
         // return n * n
