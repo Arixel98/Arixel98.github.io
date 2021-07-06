@@ -1,5 +1,9 @@
 //creamos un procedimiento para registrar
-alert("Bienvenido a Compras")
+window.addEventListener("load",function(){
+    alert("Bienvenido a Compras");
+
+})
+
 
 var getData = function() { //declarar variables para los controles
     var N_titular = document.getElementById("N_titular").value;
