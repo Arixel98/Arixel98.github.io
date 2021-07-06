@@ -1,15 +1,17 @@
-*{
-    margin:0;
+* {
+    margin: 0;
     padding: 0;
     text-decoration: none;
 }
-.buscar{
+
+.buscar {
     position: absolute;
     padding: 5px;
-   margin-left: 250px;
+    margin-left: 250px;
     top: 20px;
 }
-.btm{
+
+.btm {
     position: absolute;
     background: slateblue;
     width: 55px;
@@ -18,239 +20,223 @@
     color: white;
     top: 0;
     left: 0px;
-    
     text-align: center;
     font-size: 20px;
     border-radius: 50px;
     cursor: pointer;
-    
-    }
+}
 
-.usuario{ 
-        position: absolute;
-        top:30px;
-        bottom:0;
-        right:0;
-        left: 400px; 
-    }
+.usuario {
+    position: absolute;
+    top: 30px;
+    bottom: 0;
+    right: 0;
+    left: 400px;
+}
 
- 
+.equipos-conten__img {
+    float: left;
+    margin-left: 4px;
+}
 
-    .equipos-conten__img{
-        float: left;
-        margin-left: 4px;
-        
-    }  
+.pagina-equipos {
+    margin: 0;
+    padding: 0;
+    background-image: url(../imagenes/Imagendf.png);
+    background-size: cover;
+}
 
+.carritopg {
+    position: relative;
+    left: 30px;
+    top: 20px;
+}
 
-   
-    
-    .pagina-equipos{
-        margin: 0;
-        padding: 0;
-        background-image:url(../imagenes/Imagendf.png) ;
-        background-size: cover;
-    }
-
-
-    .carritopg{ 
-        position:relative;
-        left: 30px;
-        top: 20px;
-        
-    } 
-
-    .carro{
-        width: 100px;
-        margin-left: 750px;
-        margin-top: 10px;
-
-    }
-
-
-    .equipos-conten__p{
-        background-color: cornflowerblue;
-        width: 250px;
-        border-radius: 15px;
-        border-radius: 15px;
-        display: inline-block;
-        margin-right: 100px;
-        margin-bottom: 120px;
-        margin-left: 100px;
-    } 
-
-
-    #logo{
-        position: relative;
-        top:75px;
-        bottom:0;
-        right:0;
-        left: 0px; 
-    }
-
-    .index-footer{
-        color: rgb(255, 255, 255);
-        background-color: rgb(8, 11, 15);
-        width: 1000px;
-    }
-
-    .licencias-conten__p{
-        background-color: cornflowerblue;
-        width: 190px;
-        border-radius: 15px; 
-    }
-
-
-    :any-link{
-        text-decoration: none;
-    }
-    
-    .pagina-Compras{
-        background-image:url(../imagenes/Imagendf.png) ;
-        background-size: cover;
-        }
-        
-    
-    .contaner{
-       
-        width: 100%;
-        padding: 10px;
-        gap: 1100px;
-    }
-    
-    .before{
-        
-        width: 100px;
-       display: inline-block;
-        padding: 10px;
-        color: black;
-        margin-left: 30px;
-        border-radius: 10%;
-        background-color: #414BB2;
-        color: #fff;
-        text-align: center;}
-        .before:hover{
-            background: red;
-    border-radius: 15px;
-    color: white;
-    border: 2px dashed black;
+.carro {
     width: 100px;
-        }
-        
-        
-    .after{
-        display: inline-block;
-        width: 100px;    
-        padding: 10px;
-        color:  black;
-        border-radius: 10%;
-        background-color: #414BB2;
-        color: #fff;
-        margin-left: 900px;
-        text-align: center;
-    }
-    .after:hover{
+    margin-left: 750px;
+    margin-top: 10px;
+}
+
+.equipos-conten__p {
+    background-color: cornflowerblue;
+    width: 250px;
+    border-radius: 15px;
+    border-radius: 15px;
+    display: inline-block;
+    margin-right: 100px;
+    margin-bottom: 120px;
+    margin-left: 100px;
+}
+
+#logo {
+    position: relative;
+    top: 75px;
+    bottom: 0;
+    right: 0;
+    left: 0px;
+}
+
+.index-footer {
+    color: rgb(255, 255, 255);
+    background-color: rgb(8, 11, 15);
+    width: 1000px;
+}
+
+.licencias-conten__p {
+    background-color: cornflowerblue;
+    width: 190px;
+    border-radius: 15px;
+}
+
+ :any-link {
+    text-decoration: none;
+}
+
+.pagina-Compras {
+    background-image: url(../imagenes/Imagendf.png);
+    background-size: cover;
+}
+
+.contaner {
+    width: 100%;
+    padding: 10px;
+    gap: 1100px;
+}
+
+.before {
+    width: 100px;
+    display: inline-block;
+    padding: 10px;
+    color: black;
+    margin-left: 30px;
+    border-radius: 10%;
+    background-color: #414BB2;
+    color: #fff;
+    text-align: center;
+}
+
+.before:hover {
     background: red;
     border-radius: 15px;
     color: white;
     border: 2px dashed black;
     width: 100px;
-    }
-    
-    .contenedor{
-        border: 1px black solid transparent;
-        width: 800px;
-        height: 200px;
-        padding: 20px;
-        margin:auto;
-        margin-top: 40px;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-    
-    .exterior{
-        border: 1px black solid transparent;
-        width: 200px;
-        height: auto;
-        padding: 10px;
-        background-color: #81A9F7;
-        border-radius: 10%;
-    }
-    
-    .interior{
-        border: 1px black solid transparent;
-        width: 100px;
-        height: 100px;
-        padding: 10px;
-        background-color: #fff;
-        border-radius: 10%;
-        margin: auto;
-        font-size: 2em;
-        text-align: center;
-    }
-    
-    .dinero{
-        border: 1px black solid transparent;
-        width: max-content;
-        height: auto;
-        margin: auto;
-        padding: 10px;
-        color: #fff;
-        font-size: 2em;
-        border-radius: 10%;
-        margin-bottom: 20px;
-    }
-    
-    .contenedor_envio{
-        border: 1px black solid transparent;
-        width: max-content;
-        height: auto;
-        margin:auto;
-    }
-    
-    .input_metodo{
-        border-color: #81A9F7;
-        border-radius: 5px;
-        width: 350px;
-        height: 30px;
-    }
-    
-    .texto_footer{
-        color: #fff;
-    }
-    
-    .contenedor_img{
-        border: 1px black solid transparent;
-        padding: 20px;
-        grid-template-columns: 1fr 1fr;
-        gap: 1100px;
-    }
-    
-    .buscar{
-        padding: 20px;
-        display: grid;
-        grid-template-columns: auto auto auto;
-        
-    }
-    
-    .barra{
-        margin-top: 0px;
-        
+}
 
-    }
-    .barra_busqueda{
-        width:300px;
-        height: 10px; 
-        padding: 8px;
-    } 
-    
-    .menu{
-        list-style: none;
-        margin-left: 30px;
-        margin-bottom: 30px;
-        margin-top: -20px;
-    }
-    .caja_menu{
+.after {
+    display: inline-block;
+    width: 100px;
+    padding: 10px;
+    color: black;
+    border-radius: 10%;
+    background-color: #414BB2;
+    color: #fff;
+    margin-left: 900px;
+    text-align: center;
+}
+
+.after:hover {
+    background: red;
+    border-radius: 15px;
+    color: white;
+    border: 2px dashed black;
+    width: 100px;
+}
+
+.contenedor {
+    border: 1px black solid transparent;
+    width: 800px;
+    height: 200px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.exterior {
+    border: 1px black solid transparent;
+    width: 200px;
+    height: auto;
+    padding: 10px;
+    background-color: #81A9F7;
+    border-radius: 10%;
+}
+
+.interior {
+    border: 1px black solid transparent;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10%;
+    margin: auto;
+    font-size: 2em;
+    text-align: center;
+}
+
+.dinero {
+    border: 1px black solid transparent;
+    width: max-content;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+    color: #fff;
+    font-size: 2em;
+    border-radius: 10%;
+    margin-bottom: 20px;
+}
+
+.contenedor_envio {
+    border: 1px black solid transparent;
+    width: max-content;
+    height: auto;
+    margin: auto;
+}
+
+.input_metodo {
+    border-color: #81A9F7;
+    border-radius: 5px;
+    width: 350px;
+    height: 30px;
+}
+
+.texto_footer {
+    color: #fff;
+}
+
+.contenedor_img {
+    border: 1px black solid transparent;
+    padding: 20px;
+    grid-template-columns: 1fr 1fr;
+    gap: 1100px;
+}
+
+.buscar {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.barra {
+    margin-top: 0px;
+}
+
+.barra_busqueda {
+    width: 300px;
+    height: 10px;
+    padding: 8px;
+}
+
+.menu {
+    list-style: none;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    margin-top: -20px;
+}
+
+.caja_menu {
     border: 2px #414BB2 solid;
     width: 180px;
     height: auto;
@@ -261,95 +247,84 @@
     margin-right: 0px;
     text-align: center;
     margin-top: 100px;
-    }
-    
-    .caja_link{
-        color: #fff;
-    }
-    
-    .titulo{
-        color: #414BB2;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 3em;
-    }
-    
-    .contenedor_inputs{
-        border: 1px black solid transparent;
-        width: max-content;
-        height: auto;
-        margin: auto;
-        padding: 10px;
-        font-size: 30px;
-        font-family: arial;
-    }
-   
-    .usuario{
-        margin-left: 600px;
-    }
-    .wester{
-        margin-left: 800px;
-    }
+}
 
-.escudo{
+.caja_link {
+    color: #fff;
+}
 
+.titulo {
+    color: #414BB2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+}
+
+.contenedor_inputs {
+    border: 1px black solid transparent;
+    width: max-content;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+    font-size: 30px;
+    font-family: arial;
+}
+
+.usuario {
+    margin-left: 600px;
+}
+
+.wester {
+    margin-left: 800px;
+}
+
+.escudo {
     width: 100px;
-    float:left;
+    float: left;
     margin-right: 0;
-    
-
 }
 
-
-.caracteristicas1{
-   
-   margin-right: 500px
-
+.caracteristicas1 {
+    margin-right: 500px
 }
 
-.equipos-conten__h2--active{
+.equipos-conten__h2--active {
     background-color: blueviolet;
-    margin-left:10px;
+    margin-left: 10px;
     text-align: center;
-    width:380px;
-    border-radius:10px;
-   
-    font-size:30px;
+    width: 380px;
+    border-radius: 10px;
+    font-size: 30px;
     height: 80px;
-}   
+}
 
-
-.equipos-conten__h3{
+.equipos-conten__h3 {
     display: inline-block;
-    background-color:cornflowerblue;
+    background-color: cornflowerblue;
     width: 300px;
     border-radius: 15px;
-    margin-left:100px;
+    margin-left: 100px;
     margin-right: 500px;
     margin-top: 20px;
 }
 
-
-.equipos-conten__h2{
+.equipos-conten__h2 {
     display: inline-block;
     width: 350px;
     text-align: center;
     background-color: blueviolet;
-    margin-left:100px;
+    margin-left: 100px;
     margin-right: 500px;
     font-size: 2em;
 }
 
-.pcgamer{
+.pcgamer {
     background-color: blueviolet;
-    margin-left:10px;
+    margin-left: 10px;
     margin-top: 50px;
     text-align: center;
-    width:380px;
-    border-radius:10px;
-    line-height:2;
-    font-size:30px;
+    width: 380px;
+    border-radius: 10px;
+    line-height: 2;
+    font-size: 30px;
     height: 80px;
-
 }
-
-

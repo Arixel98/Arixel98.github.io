@@ -5,68 +5,71 @@
     background-size: cover;
     background-position: center top 0;
 } */
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: arial;
 }
-:any-link{
+
+:any-link {
     text-decoration: none;
 }
 
 .pagina-Entrega {
-    background-image:url(../imagenes/Imagendf.png) ;
+    background-image: url(../imagenes/Imagendf.png);
     background-size: cover;
 }
 
-h1{
+h1 {
     text-align: center;
 }
 
-table{
+table {
     border-collapse: collapse;
 }
 
-th{
+th {
     padding: 8px;
-    width: 200px; 
+    width: 200px;
     border-radius: 10px;
 }
 
-tr{
+tr {
     background: rgb(77, 122, 206);
 }
 
-input{
+input {
     border-radius: 25px;
     margin-bottom: 0px;
 }
 
-.suguiente{
-    margin-left:950px ;
-    margin-bottom:50px;
+.suguiente {
+    margin-left: 950px;
+    margin-bottom: 50px;
 }
-.volver{
+
+.volver {
     position: absolute;
 }
 
-.nombre{
+.nombre {
     padding: 5px;
     width: 450px;
 }
 
-.apellido{
+.apellido {
     padding: 5px;
     width: 450px;
 }
 
-.d_entrega{
+.d_entrega {
     padding: 5px;
     width: 950px;
 }
 
-.contenedor{
+.contenedor {
     display: inline-block;
     margin: 40px;
     margin-bottom: 0px;
@@ -76,7 +79,7 @@ input{
     left: 150px;
 }
 
-.contenedor1{
+.contenedor1 {
     display: inline-block;
     margin: 650px;
     position: absolute;
@@ -84,24 +87,23 @@ input{
     right: -450px;
 }
 
-.contenedor2{
+.contenedor2 {
     display: block;
     margin: 40px;
     margin-top: 200px;
     margin-left: 190px;
-
 }
 
-.contenedor3{
+.contenedor3 {
     margin: 70px;
     margin-left: 200px;
 }
 
-.descripcion__textarea{
+.descripcion__textarea {
     border-radius: 25px;
 }
 
-.p{
+.p {
     background-color: rgb(106, 167, 218);
     border-radius: 10px;
     width: 130px;
@@ -110,10 +112,9 @@ input{
     text-align: center;
     position: relative;
     left: 800px;
-    
 }
 
-.sub{
+.sub {
     display: inline-block;
     margin: 650px;
     padding: 15px 0px;
@@ -122,7 +123,7 @@ input{
     left: 300px;
 }
 
-.igv{
+.igv {
     display: inline-block;
     margin: 650px;
     padding: 15px 0px;
@@ -131,7 +132,7 @@ input{
     left: 300px;
 }
 
-.total{
+.total {
     display: inline-block;
     margin: 650px;
     padding: 15px 0px;
