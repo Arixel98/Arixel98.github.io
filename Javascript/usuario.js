@@ -17,17 +17,3 @@ var getData = function() {
             //     document.getElementById("ccv").focus();
     }
 }
-
-
-
-
-//if (document.getElementById('contraseña') && document.getElementById('usuario') 
-//document.form.submit(); 
-//} 
-//else{
-//alert("Porfavor ingrese, nombre de usuario y contraseña correctos."); 
-//}}
-
-
-
-//¡NO BORRAR JAMAS JAMAS DE LOS JAMASES!

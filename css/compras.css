@@ -280,6 +280,8 @@ tbody tr td a:hover {
     padding: 10px;
     font-size: 20px;
     outline: 0;
+  margin-top: -100px;
+  
 }
 
 #box-search {
@@ -292,6 +294,7 @@ tbody tr td a:hover {
     z-index: 8;
     overflow: hidden;
     display: none;
+    margin-top: -85px;
 }
 
 #box-search li a {
