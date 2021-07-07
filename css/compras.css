@@ -1,77 +1,78 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: arial;
 }
-
-:any-link {
+:any-link{
     text-decoration: none;
 }
 
-.pagina-Compras {
-    background-image: url(../imagenes/Imagendf.png);
+.pagina-Compras{
+    background-image:url(../imagenes/Imagendf.png) ;
     background-size: cover;
-}
+    }
+    
 
-.contaner {
+.contaner{
+   
     width: 100%;
     padding: 10px;
     gap: 1100px;
 }
 
-.before {
+.before{
+    
     width: 100px;
-    display: inline-block;
+   display: inline-block;
     padding: 10px;
     color: black;
     margin-left: 30px;
     border-radius: 10%;
     background-color: #414BB2;
     color: #fff;
-    text-align: center;
-}
+    text-align: center;}
 
-.before:hover {
-    background: red;
-    border-radius: 15px;
-    color: white;
-    border: 2px dashed black;
-    width: 100px;
-}
-
-.after {
+    .before:hover{
+        background: red;
+border-radius: 15px;
+color: white;
+border: 2px dashed black;
+width: 100px;
+    }
+    
+    
+.after{
     display: inline-block;
-    width: 100px;
+    width: 100px;    
     padding: 10px;
-    color: black;
+    color:  black;
     border-radius: 10%;
     background-color: #414BB2;
     color: #fff;
     margin-left: 900px;
     text-align: center;
 }
-
-.after:hover {
-    background: red;
-    border-radius: 15px;
-    color: white;
-    border: 2px dashed black;
-    width: 100px;
+.after:hover{
+background: red;
+border-radius: 15px;
+color: white;
+border: 2px dashed black;
+width: 100px;
 }
 
-.contenedor {
+.contenedor{
     border: 1px black solid transparent;
     width: 800px;
     height: 200px;
     padding: 20px;
-    margin: auto;
+    margin:auto;
     margin-top: 40px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-.exterior {
+.exterior{
     border: 1px black solid transparent;
     width: 200px;
     height: auto;
@@ -80,7 +81,7 @@
     border-radius: 10%;
 }
 
-.interior {
+.interior{
     border: 1px black solid transparent;
     width: 100px;
     height: 100px;
@@ -92,7 +93,7 @@
     text-align: center;
 }
 
-.dinero {
+.dinero{
     border: 1px black solid transparent;
     width: max-content;
     height: auto;
@@ -104,14 +105,14 @@
     margin-bottom: 20px;
 }
 
-.contenedor_envio {
+.contenedor_envio{
     border: 1px black solid transparent;
     width: max-content;
     height: auto;
-    margin: auto;
+    margin:auto;
 }
 
-.input_metodo {
+.input_metodo{
     border-color: #81A9F7;
     border-radius: 5px;
     width: 350px;
@@ -119,55 +120,57 @@
     font-size: 25px;
 }
 
-.texto_footer {
+.texto_footer{
     color: #fff;
 }
 
-.contenedor_img {
+.contenedor_img{
     border: 1px black solid transparent;
     padding: 20px;
     grid-template-columns: 1fr 1fr;
     gap: 1100px;
 }
 
-.navegacion {
+.navegacion{
     padding: 20px;
     display: grid;
     grid-template-columns: auto auto auto;
     border-color: black;
     width: 500px;
     display: block;
+        
 }
 
-.menu {
+
+
+.menu{
     list-style: none;
     margin-left: 150px;
     margin-bottom: 30px;
 }
-
-.caja_menu {
-    border: 2px #414BB2 solid;
-    width: 180px;
-    height: auto;
-    padding: 10px;
-    background-color: #414BB2;
-    display: inline-block;
-    border-radius: 10px;
-    margin-right: 0px;
-    text-align: center;
+.caja_menu{
+border: 2px #414BB2 solid;
+width: 180px;
+height: auto;
+padding: 10px;
+background-color: #414BB2;
+display: inline-block;
+border-radius: 10px;
+margin-right: 0px;
+text-align: center;
 }
 
-.caja_link {
+.caja_link{
     color: #fff;
 }
 
-.titulo {
+.titulo{
     color: #414BB2;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 3em;
 }
 
-.contenedor_inputs {
+.contenedor_inputs{
     border: 1px black solid transparent;
     width: max-content;
     height: auto;
@@ -176,8 +179,6 @@
     font-size: 30px;
     font-family: arial;
 }
-
-
 /*.img
 {
     display: block;
@@ -186,17 +187,15 @@
     /*max-width:50%;
     height: auto;
 }*/
-
-.usuario {
+.usuario{
     margin-left: 1150px;
     margin-top: -150px;
 }
-
-.wester {
+.wester{
     margin-left: 800px;
 }
-
-.boton {
+.boton
+{
     width: 200px;
     font-size: 25px;
     margin-left: 70px;
@@ -204,8 +203,9 @@
     padding: auto;
 }
 
-input[type="search"] {
-    padding: 10px;
+input[type="search"]
+{
+    padding:10px;
     padding-right: 35px;
     border: none;
     width: 470px;
@@ -215,65 +215,68 @@ input[type="search"] {
     margin-bottom: -10px;
 }
 
-#input-search {
-    width: 500px;
-    height: 40px;
-    font-size: 20px;
-    text-indent: 5px;
-    margin-top: -50px;
-    margin-bottom: 20px;
+#input-search{
+width: 500px;
+height: 40px;
+font-size: 20px;
+text-indent: 5px;
+margin-top: -50px;
+margin-bottom: 20px;
 }
 
-.content-search {
-    width: 100%;
-    height: 100vh;
-    position: fixed;
-    top: 60px;
-    left: 0;
-    background: rgba(0, 0, 0, 0.3);
-    display: none;
+
+.content-search{
+width: 100%;
+height: 100vh;
+position: fixed;
+top:60px;
+left: 0;
+background: rgba(0,0,0,0.3);
+display: none;
+
 }
 
-.content-table {
+.content-table{
     width: 40%;
     max-height: 550px;
     height: auto;
-    background: rgba(0, 0, 0, 0.3);
+    background:rgba(0,0,0,0.3);
     margin-left: 380px;
     overflow-y: visible;
     overflow-x: hidden;
+
 }
 
-.content-table table {
+.content-table table{
     width: 100%;
 }
 
-tbody tr td a {
+tbody tr td a
+{
     display: block;
     padding: 10px;
     color: white;
     text-decoration: none;
+
 }
 
 tbody tr td a:hover {
-    background: rgba(0, 0, 0, 0.3);
+background:rgba(0,0,0,0.3);
 }
-
-
 /* add **/
 
 
 /*Buscador de contenido*/
-
-#ctn-bars-search {
+  
+#ctn-bars-search{  
     top: -10px;
-    width: 100%;
+    width: 100%; 
     padding: 20px;
     z-index: 9;
     transition: all 600ms;
 }
 
-#ctn-bars-search input {
+#ctn-bars-search input{
     display: block;
     width: 500px;
     margin: auto;
@@ -284,7 +287,7 @@ tbody tr td a:hover {
   
 }
 
-#box-search {
+#box-search{
     position: fixed;
     top: 165px;
     left: 50%;
@@ -297,28 +300,29 @@ tbody tr td a:hover {
     margin-top: -85px;
 }
 
-#box-search li a {
+#box-search li a{
     display: block;
     width: 1200px;
     color: #777777;
     padding: 12px 20px;
 }
 
-#box-search li a:hover {
+#box-search li a:hover{
     background: #f3f3f3;
 }
 
-#box-search li a i {
+#box-search li a i{
     margin-right: 10px;
     color: #777777;
 }
 
-#cover-ctn-search {
+
+#cover-ctn-search{
     width: 100%;
     height: 100%;
     position: fixed;
     left: 0;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0,0,0,0.5);
     z-index: 7;
     display: none;
 }
