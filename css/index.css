@@ -68,3 +68,9 @@
     z-index: 7;
     display: none;
 }
+
+#Imagjs{
+    /* width= 390px
+    height= 390px */
+    background-color: transparent;
+}
