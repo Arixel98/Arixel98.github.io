@@ -3,6 +3,7 @@ const storageRef = firebase.storage().ref();
 
 //conexion a base de datos
 const baseDeDatos = firebase.firestore();
+//constantes de las imagenes
 const galeria = document.getElementById("imagenes");
 const Laptop = document.getElementById("LaptopSinFondo");
 const LaptopGamer = document.getElementById("LaptopGamer");
@@ -11,7 +12,7 @@ const obteniendoImagenes = (funcionObtener) => {
     baseDeDatos.collection("imagenes").onSnapshot(funcionObtener);
 }
 
-
+//llamando a todas las funciones
 window.addEventListener('DOMContentLoaded', mostrarPcGamer,mostrarLaptopSinfondo());
 
 window.addEventListener('DOMContentLoaded',mostrarLaptopGamer,cuenta());
