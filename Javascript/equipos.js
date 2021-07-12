@@ -16,6 +16,8 @@ window.addEventListener('DOMContentLoaded', mostrarPcGamer,mostrarLaptopSinfondo
 
 window.addEventListener('DOMContentLoaded',mostrarLaptopGamer,cuenta());
 
+//  window.addEventListener("load",cuenta)
+
 
      function mostrarPcGamer(){
          obteniendoImagenes(
@@ -60,7 +62,7 @@ window.addEventListener('DOMContentLoaded',mostrarLaptopGamer,cuenta());
             }
          }
         // luego de que toda la paguina se aya cargado o mostrado ejecutame la funcion cuenta
-        //  window.addEventListener("load",cuenta)
+        
 
     
     
