@@ -212,13 +212,13 @@ table {
     background-size: cover;
 }
 
-.index-footer__img--robot {
+/* .index-footer__img--robot {
     position: absolute;
     top: 1250px;
     bottom: 0;
     right: 0;
     left: 950px;
-}
+} */
 
 
 /* .robot{
@@ -245,9 +245,9 @@ table {
     padding: 0;
 }
 
-.index-footer__img--logo {
+/* .index-footer__img--logo {
     margin-left: 600px;
-}
+} */
 
 .index-footer__img--redes {
     margin: 0;
