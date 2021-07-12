@@ -72,6 +72,9 @@ tr th a {
     color: white;
 }
 
+
+/* El cuerpo de Footer */
+
 footer {
     width: 100%;
     background: #07273f;
@@ -167,6 +170,23 @@ footer {
     margin-top: 10px;
     margin-left: 20px;
     max-width: 140px;
+    color: white;
+}
+
+.row1 a {
+    margin-top: 10px;
+    margin-left: 20px;
+    max-width: 140px;
+    color: white;
+}
+
+.row1 button {
+    background: transparent;
+    margin-top: 10px;
+    margin-left: 20px;
+    max-width: 140px;
+    border: hidden;
+    color: white;
 }
 
 iframe {
@@ -182,3 +202,118 @@ iframe {
         margin-top: 40px;
     }
 }
+
+
+/* Ventana emergente (POPUP) */
+
+.overlay {
+    background: rgba(0, 0, 0, 0.3);
+    color: black;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+}
+
+.overlay.active {
+    visibility: visible;
+}
+
+.popup {
+    background: white;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    padding: 30px;
+    text-align: center;
+    width: 600px;
+    transition: .5s ease all;
+    transform: scale(0.5);
+    opacity: 0;
+}
+
+.popup .btn-cerrar-popup {
+    font-size: 16px;
+    line-height: 16px;
+    display: block;
+    text-align: right;
+    color: #bbbbbb;
+    transition: .3s ease all;
+}
+
+.popup .btn-cerrar-popup:hover {
+    color: rgb(208, 204, 204);
+}
+
+.popup h3 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    /* opacity: 0; */
+}
+
+.popup h4 {
+    font-size: 26px;
+    font-weight: 300;
+    margin-bottom: 40px;
+    /* opacity: 0; */
+}
+
+.popup form .contenedor-inputs {}
+
+.popup form .contenedor-inputs input {
+    width: 100%;
+    margin-bottom: 20px;
+    height: 52px;
+    line-height: 52px;
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid #bbbbbb;
+}
+
+.popup form .btn-submit {
+    padding: 0 20px;
+    height: 40px;
+    line-height: 40px;
+    border: none;
+    color: #fff;
+    background: #5e7de3;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.popup form .btn-submit:hover {
+    background: steelblue;
+}
+
+
+/* Animaciones Popup */
+
+.popup.active {
+    opacity: 1;
+    transform: scale(1);
+}
+
+
+/* .popup.active h3 {
+    animation: entradaTitulo .8s ease .5s forwards;
+}
+
+.popup.active h4 {
+    animation: entradaSubTitulo .8s ease .5s forwards;
+}
+
+@keyframes entradaTitulo {
+    form {
+        transform: translateY(-250px);
+    }
+    to {
+        transform: translateY(0);
+    }
+} */

@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="../css/estilos.css">
     <link rel="stylesheet" href="../css/nosotros.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
     <title>Nosotros</title>
     <link rel="icon" href="../imagenes/logo.png">
 </head>
@@ -103,7 +104,7 @@
                     </div>
                     <div class="row1">
                         <img src="/imagenes/gm.png">
-                        <label>jjcsstech@gmail.com</label>
+                        <a href="#" class="contacto">jjcsstech@gmail.com</a>
                     </div>
                     <div class="row1">
                         <img src="/imagenes/phone.png">
@@ -111,13 +112,26 @@
                     </div>
                     <div class="row1">
                         <img src="/imagenes/WhatsApp.png">
-                        <label>Contactanos en WhatsApp</label>
+                        <a href="#" class="contacto">Contactanos en WhatsApp</a>
                     </div>
                     <div class="row1">
                         <img src="/imagenes/tele.png">
-                        <label>Deja tu número y te contactamos</label>
+                        <button class="btn-abrir-popup" id="btn-abrir-popup">Dejanos tu número y te contactamos</button>
                     </div>
-
+                    <div class="overlay" id="overlay">
+                        <div class="popup" id="popup">
+                            <a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
+                            <h3>INGRESA TUS DATOS</h3>
+                            <h4>y un agente especializado te llamará a la brevedad, gracias.</h4>
+                            <form action="">
+                                <div class="contenedor-inputs">
+                                    <input type="text" placeholder="Nombre">
+                                    <input type="phone" placeholder="Teléfono">
+                                </div>
+                                <input type="submit" class="btn-submit" value="Enviar">
+                            </form>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -132,7 +146,7 @@
     <!-- The core Firebase JS SDK is always required and must be listed first -->
     <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-firestore.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-storage.js"></script>
+
     <!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#available-libraries -->
     <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-analytics.js"></script>
@@ -154,6 +168,7 @@
         firebase.analytics();
     </script>
     <script src="../Javascript/buscador.js"></script>
+    <script src="/Javascript/nosotros.js"></script>
 </body>
 
 </html>
