@@ -1,3 +1,25 @@
+const storageRef = firebase.storage().ref();
+
+const baseDeDatos = firebase.firestore();
+const Index = document.getElementById("Publicidad");
+
+const obteniendoImagenes = (funcionObtener) => {
+    baseDeDatos.collection("imagenes").onSnapshot(funcionObtener);
+}
+
+window.addEventListener('DOMContentLoaded', mostrarPublicidad());
+
+function mostrarPublicidad(){
+    obteniendoImagenes((listaDeImagenes)=>{
+        Index.innerHTML=``;
+           listaDeImagenes.forEach(
+               (e) => {
+                   e = Index.innerHTML = `<img src=https://firebasestorage.googleapis.com/v0/b/jjcss-tech-dff98.appspot.com/o/publicidad.png?alt=media&token=04edc1cc-ee45-4501-a868-40c9922b98c3>`;
+               }
+           )
+    }
+)
+}
 
 window.addEventListener('load',function(){
     console.log('cargo el contenido');
