@@ -212,3 +212,13 @@ input{
     z-index: 7;
     display: none;
 }
+
+.soporte-conten__input {
+    display: inline-block;
+    background-color: cornflowerblue;
+    margin-left: 900px;
+    line-height: 3;
+    width: 150px;
+    border-radius: 12px;
+    font-size: 20px;
+}
