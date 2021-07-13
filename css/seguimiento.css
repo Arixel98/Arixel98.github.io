@@ -110,12 +110,14 @@ input:hover{
     color:rgb(50, 53, 205);
 
 }
-.suguiente{
-  margin-left: 980px;
+.siguiente{
+  margin-left: 1100px;
+  /*clear:left;*/
 }
 .volver{
     margin-left: 30px;
     margin-bottom: 25px;
+    clear:left;
 }
 
 
