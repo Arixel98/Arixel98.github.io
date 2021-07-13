@@ -22,7 +22,12 @@ function enviar(){
   // Signed in
   var user = userCredential.user;
   alert("Se resguistro correctamente");
-  // ...
+  // si despues de salir el alert se toma el boton cancelar y si se da un clip se activa el boton 
+  document.getElementById("btnCancelar").click()
+  
+
+
+  
 })
 .catch((error) => {
   var errorCode = error.code;
@@ -42,7 +47,9 @@ firebase.auth().signInWithEmailAndPassword(email, pass)
 
 var user = userCredential.user;
 alert("Accediste");
+
 document.getElementById("abc").style.display="none";
+
 })
 .catch((error) => {
 var errorCode = error.code;
