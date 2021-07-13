@@ -68,7 +68,7 @@ window.addEventListener('DOMContentLoaded',function Banner(){
                 Summer.innerHTML=``;
                    listaDeImagenes.forEach(
                        (e) => {
-                           e = Summer.innerHTML = `<img src=https://firebasestorage.googleapis.com/v0/b/jjcss-tech-dff98.appspot.com/o/sumer.png?alt=media&token=f37c2085-b58d-464f-a05e-2ea6cdbebbe2 width="390px" height="390px"/>`;
+                           e = Summer.innerHTML = `<img src=https://firebasestorage.googleapis.com/v0/b/jjcss-tech-dff98.appspot.com/o/sumer.png?alt=media&token=f37c2085-b58d-464f-a05e-2ea6cdbebbe2 width="390px" height="390px" margin-left="200"/>`;
                        }
                    )
             }
