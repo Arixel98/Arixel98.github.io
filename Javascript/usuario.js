@@ -23,17 +23,15 @@ function enviar(){
   var user = userCredential.user;
   alert("Se resguistro correctamente");
   // si despues de salir el alert se toma el boton cancelar y si se da un clip se activa el boton 
-  document.getElementById("btnCancelar").click()
-  
-
-
+  document.getElementById("btnCancelar").click();
+  document.getElementById("login").style.display="none";
   
 })
 .catch((error) => {
   var errorCode = error.code;
   var errorMessage = error.message;
   alert("ocurrio un error");
-  // ..
+  
 });
 
 }
@@ -48,7 +46,6 @@ firebase.auth().signInWithEmailAndPassword(email, pass)
 var user = userCredential.user;
 alert("Accediste");
 
-document.getElementById("abc").style.display="none";
 
 })
 .catch((error) => {
@@ -59,6 +56,7 @@ alert(errorMessage);
 });
 
  }
+ 
  function cerrar() {
             firebase.auth().signOut()
                 .then(function () {
@@ -69,21 +67,26 @@ alert(errorMessage);
                 })
         }
 
-// observador de estado de autenticacion
-
+// observador de estado si estan en secion o no 
   firebase.auth().onAuthStateChanged((user) => {
       if (user) {
-        // User is signed in, see docs for a list of available properties
+        // cuando esta logueado
         // https://firebase.google.com/docs/reference/js/firebase.User
         var uid= user.uid;
-        document.getElementById("login").innerHTML = `<p>Logueado ` + user.email+`</p>`+  `<button onclick=cerrar();>cerrar sesion</button>`;
+        document.getElementById("login").innerHTML =  `<button onclick=cerrar();>cerrar sesion</button>`;
+        document.getElementById("divDatosUsu").style.visibility="visible";
+        document.getElementById("lblNombreUsuario").innerHTML = user.email
+        document.getElementById("A").style.visibility="hidden";
        
         // ...
       } else {
-        // User is signed out
-        // ...
-        document.getElementById("login").innerHTML =    "no Logueado " ;
+        // si no esta logueado
+        
+        document.getElementById("login").innerHTML =    "No Logueado " ;
         document.getElementById("abc").style.display="block";
+        // visibility hiden para que no se muestre
+        document.getElementById("divDatosUsu").style.visibility="hidden";
+        document.getElementById("A").style.visibility="visible";
        
       }
     });
