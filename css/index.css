@@ -70,10 +70,11 @@
 }
 
 #Imagjs{
-    /* width= 390px
-    height= 390px */
-    background-color: transparent;
-}
+     /* width: auto
+    /* height¨" */
+     /* background-color: transparent;  */
+
+} 
 
 #Robot{ position: absolute;
     top: 1250px;
@@ -84,4 +85,17 @@
 
 #Imagen8{
     margin-left: 600px;
+}
+
+#ocultar{
+
+    background-color: transparent;
+}
+
+#Summer{
+ margin-left: 100px;
+}
+
+#Articulos{
+   margin-left: 90px;
 }

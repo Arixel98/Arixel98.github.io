@@ -179,10 +179,10 @@ th {
     width: 210px;
     border-radius: 10px;
 }
-
-tr {
+ /* mira aca hoy  */
+ tr {
     background: rgb(77, 122, 206);
-}
+} 
 
 table {
     border-collapse: collapse;
@@ -584,3 +584,4 @@ table {
 .mover {
     margin-left: 120px;
 }
+
