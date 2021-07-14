@@ -24,7 +24,7 @@ function enviar(){
   alert("Se resguistro correctamente");
   // si despues de salir el alert se toma el boton cancelar y si se da un clip se activa el boton 
   document.getElementById("btnCancelar").click();
-  // document.getElementById("login").style.display="none";
+
   
 })
 .catch((error) => {
