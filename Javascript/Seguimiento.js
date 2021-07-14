@@ -5,6 +5,7 @@ const storageRef = firebase.storage().ref();
 //Id automatico de cada archivo a jalar
 const DOCUMENT_ID_FIRST = "rLTQGjDiIq2U832sWleo";
 const DOCUMENT_ID_SECOND = "zHT2gL1GMFhMaaVmlyzV";
+const DOCUMENT_ID_THIRD = "NV9qLjbnS5lqn1asB4Ip";
 
 //llamar
 db.collection("imagenes").get().then((querySnapshot) => {
@@ -12,9 +13,20 @@ db.collection("imagenes").get().then((querySnapshot) => {
         if(doc.id == DOCUMENT_ID_FIRST) {
             document.querySelector('#lapt').src = doc.data().ruta;
         } else if(doc.id == DOCUMENT_ID_SECOND) {
-            document.querySelector('#estado').src = doc.data().ruta;
+            document.querySelector('#estado').src = doc.data().ruta; 
+        // { else if(doc.id == DOCUMENT_ID_THIRD) {
+        //     document.querySelector('#logo').src = doc.data().ruta;
+        // }
+        //     }
+
         }
 
+    })
+})
+
+db.collection("imagenes").get().then((querySnapshot) => {
+    querySnapshot.forEach((doc) => { 
+        document.querySelector('#logo').src = doc.data().ruta;
     })
 })
 
