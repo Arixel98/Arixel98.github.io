@@ -55,7 +55,6 @@ function cambiarImg(){
        indice=0;
    }
     
-                
 }
 setInterval(cambiarImg,2000);
 
