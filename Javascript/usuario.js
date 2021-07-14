@@ -61,6 +61,7 @@ alert(errorMessage);
             firebase.auth().signOut()
                 .then(function () {
                     console.log("salir");
+                   
                 })
                 .catch(function (error) {
                     console.log("error");
@@ -73,20 +74,28 @@ alert(errorMessage);
         // cuando esta logueado
         // https://firebase.google.com/docs/reference/js/firebase.User
         var uid= user.uid;
-        document.getElementById("login").innerHTML =  `<button onclick=cerrar();>cerrar sesion</button>`;
+        // document.getElementById("login").style.display="none"
+        document.getElementById("login").innerHTML =   ` <p id="us"> Logueado</p>  `;
         document.getElementById("divDatosUsu").style.visibility="visible";
-        document.getElementById("lblNombreUsuario").innerHTML = user.email
+        // document.getElementById("lblNombreUsuario").innerHTML = user.email
         document.getElementById("A").style.visibility="hidden";
+        
+        if(user.displayName != null)
+         document.getElementById("lblNombreUsuario").innerHTML = "Bienvenido"+ " "+ user.displayName;
+        else
+        document.getElementById("lblNombreUsuario").innerHTML =  "Bienvenido"+ " " + user.email;
        
         // ...
       } else {
         // si no esta logueado
         
-        document.getElementById("login").innerHTML =    "No Logueado " ;
+        document.getElementById("login").innerHTML ="No Logueado " ;
         document.getElementById("abc").style.display="block";
         // visibility hiden para que no se muestre
         document.getElementById("divDatosUsu").style.visibility="hidden";
         document.getElementById("A").style.visibility="visible";
        
       }
+      
+     
     });

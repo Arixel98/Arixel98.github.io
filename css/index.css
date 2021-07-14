@@ -39,7 +39,7 @@
     display: none;
     margin-top: -48px;
     margin-left: -270px;
-    
+
 }
 
 #box-search li a{
@@ -69,14 +69,19 @@
     display: none;
 }
 
-#Imagjs{
+/* #Imagjs{ */
      /* width: auto
     /* height¨" */
      /* background-color: transparent;  */
+/* } */
 
-} 
+#Redes{
+    width: 100px;
+}
 
 #Robot{ position: absolute;
+    width: 200px;
+    height: 200px;
     top: 1250px;
     bottom: 0;
     right: 0;
@@ -84,6 +89,8 @@
 }
 
 #Imagen8{
+    width: 280px;
+    height: 80px;
     margin-left: 600px;
 }
 
@@ -93,9 +100,13 @@
 }
 
 #Summer{
- margin-left: 100px;
+    width: 350px;
+    height: 350px;
+    margin-left: 100px;
 }
 
 #Articulos{
-   margin-left: 90px;
+    width: 350px;
+    height: 350px;
+    margin-left: 90px;
 }

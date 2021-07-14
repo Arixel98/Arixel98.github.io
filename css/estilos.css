@@ -100,6 +100,13 @@
 .imgusuario {
     margin-left: 15px;
 }
+ 
+#imgFotoUsuario{
+    cursor:pointer;
+}
+#us{
+    margin-left: 35px;
+}
 
 input {
     margin-bottom: 29px;
