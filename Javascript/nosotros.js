@@ -16,7 +16,7 @@ btnCerrarPopup.addEventListener('click', function() {
 const db = firebase.firestore();
 
 const taskForm = document.getElementById("task-Form");
-
+console.log(taskForm);
 const saveTask = (Nombre, Teléfono) =>
     db.collection("Te Contacto").doc().set({
         Name: Nombre,
@@ -24,11 +24,12 @@ const saveTask = (Nombre, Teléfono) =>
     })
 
 taskForm.addEventListener("submit", async(e) => {
+    console.log(db); //nunca entra a este metodo
     e.preventDefault()
-    const cName = taskForm["over-Nombre"].value;
-    const cPhone = taskForm["over-Teléfono"].value;
+    const cNombre = taskForm["over-Nombre"].value;
+    const cTeléfono = taskForm["over-Teléfono"].value;
 
-    await saveTask(cName, cPhone);
+    await saveTask(cNombre, cTeléfono);
 
     taskForm.reset();
 
